@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner
+END
+TokenArrayScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/TokenArrayScanner.php
+END
+FileScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/FileScanner.php
+END
+ParameterScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/ParameterScanner.php
+END
+MethodScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/MethodScanner.php
+END
+DocBlockScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/DocBlockScanner.php
+END
+PropertyScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/PropertyScanner.php
+END
+FunctionScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/FunctionScanner.php
+END
+ConstantScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/ConstantScanner.php
+END
+CachingFileScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/CachingFileScanner.php
+END
+ScannerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/ScannerInterface.php
+END
+Util.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/Util.php
+END
+DirectoryScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/DirectoryScanner.php
+END
+ClassScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/ClassScanner.php
+END
+DerivedClassScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/DerivedClassScanner.php
+END
+AnnotationScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/AnnotationScanner.php
+END
+AggregateDirectoryScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/AggregateDirectoryScanner.php
+END
+ValueScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Scanner/ValueScanner.php
+END

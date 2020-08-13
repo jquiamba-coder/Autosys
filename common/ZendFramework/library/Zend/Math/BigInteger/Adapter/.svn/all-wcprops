@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/BigInteger/Adapter
+END
+Bcmath.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/BigInteger/Adapter/Bcmath.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/BigInteger/Adapter/AdapterInterface.php
+END
+Gmp.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/BigInteger/Adapter/Gmp.php
+END

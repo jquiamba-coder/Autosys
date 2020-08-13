@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Ldap/Node/Schema/AttributeType
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Ldap/Node/Schema/AttributeType/ActiveDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Ldap/Node/Schema/AttributeType/OpenLdap.php
+END
+AttributeTypeInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Ldap/Node/Schema/AttributeType/AttributeTypeInterface.php
+END

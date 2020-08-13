@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature
+END
+MetadataFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/MetadataFeature.php
+END
+EventFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/EventFeature.php
+END
+GlobalAdapterFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/GlobalAdapterFeature.php
+END
+AbstractFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/AbstractFeature.php
+END
+MasterSlaveFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/MasterSlaveFeature.php
+END
+SequenceFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/SequenceFeature.php
+END
+RowGatewayFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/RowGatewayFeature.php
+END
+FeatureSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/TableGateway/Feature/FeatureSet.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/Exception/RuntimeException.php
+END
+DomainException.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/Exception/DomainException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Math/Exception/InvalidArgumentException.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container
+END
+Locked.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container/Locked.php
+END
+ContainerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container/ContainerInterface.php
+END
+AccessController.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container/AccessController.php
+END
+Movable.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container/Movable.php
+END
+AbstractContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Memory/Container/AbstractContainer.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Strategy
+END
+JsonStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Strategy/JsonStrategy.php
+END
+PhpRendererStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Strategy/PhpRendererStrategy.php
+END
+FeedStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Strategy/FeedStrategy.php
+END

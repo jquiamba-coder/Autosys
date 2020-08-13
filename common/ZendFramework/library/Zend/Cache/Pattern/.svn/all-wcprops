@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern
+END
+ClassCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/ClassCache.php
+END
+PatternOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/PatternOptions.php
+END
+ObjectCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/ObjectCache.php
+END
+PatternInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/PatternInterface.php
+END
+CallbackCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/CallbackCache.php
+END
+AbstractPattern.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/AbstractPattern.php
+END
+OutputCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/OutputCache.php
+END
+CaptureCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Pattern/CaptureCache.php
+END

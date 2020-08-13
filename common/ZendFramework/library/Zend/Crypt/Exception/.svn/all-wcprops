@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/Exception/RuntimeException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/Exception/InvalidArgumentException.php
+END

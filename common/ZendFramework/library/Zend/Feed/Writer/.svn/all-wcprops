@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer
+END
+FeedFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/FeedFactory.php
+END
+Writer.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Writer.php
+END
+Source.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Source.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Entry.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Feed.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Version.php
+END
+Deleted.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/Deleted.php
+END
+ExtensionPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/ExtensionPluginManager.php
+END
+AbstractFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/AbstractFeed.php
+END
+ExtensionManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/ExtensionManager.php
+END
+ExtensionManagerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Feed/Writer/ExtensionManagerInterface.php
+END

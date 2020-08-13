@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception/ExceptionInterface.php
+END
+BadMethodCallException.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception/BadMethodCallException.php
+END
+DomainException.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception/DomainException.php
+END
+OutOfBoundsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception/OutOfBoundsException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Navigation/Exception/InvalidArgumentException.php
+END

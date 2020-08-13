@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Header/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Header/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Header/Exception/RuntimeException.php
+END
+DomainException.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Header/Exception/DomainException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Header/Exception/InvalidArgumentException.php
+END

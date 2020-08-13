@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" == "" ]; then
+ echo "must supply a file to add"
+ exit 1;
+fi
+svn --username ldnidb1 --password 9Yf1Mu2Nv1Px1Mu add "$1"

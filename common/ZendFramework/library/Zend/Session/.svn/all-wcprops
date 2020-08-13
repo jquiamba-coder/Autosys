@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/composer.json
+END
+ManagerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/ManagerInterface.php
+END
+AbstractManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/AbstractManager.php
+END
+SessionManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/SessionManager.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/CONTRIBUTING.md
+END
+Container.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/Container.php
+END
+AbstractContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/AbstractContainer.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/README.md
+END
+ValidatorChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Session/ValidatorChain.php
+END

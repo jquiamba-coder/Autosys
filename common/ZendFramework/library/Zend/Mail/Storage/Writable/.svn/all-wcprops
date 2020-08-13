@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Storage/Writable
+END
+WritableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Storage/Writable/WritableInterface.php
+END
+Maildir.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Storage/Writable/Maildir.php
+END

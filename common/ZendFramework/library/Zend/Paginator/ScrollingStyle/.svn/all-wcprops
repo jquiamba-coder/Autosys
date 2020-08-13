@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle
+END
+Jumping.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle/Jumping.php
+END
+Sliding.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle/Sliding.php
+END
+ScrollingStyleInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle/ScrollingStyleInterface.php
+END
+Elastic.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle/Elastic.php
+END
+All.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStyle/All.php
+END

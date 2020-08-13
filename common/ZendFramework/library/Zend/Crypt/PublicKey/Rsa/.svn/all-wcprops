@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/PublicKey/Rsa
+END
+AbstractKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/PublicKey/Rsa/AbstractKey.php
+END
+PrivateKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/PublicKey/Rsa/PrivateKey.php
+END
+PublicKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Crypt/PublicKey/Rsa/PublicKey.php
+END

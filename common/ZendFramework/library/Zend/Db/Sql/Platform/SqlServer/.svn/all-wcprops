@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/SqlServer
+END
+SelectDecorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/SqlServer/SelectDecorator.php
+END
+SqlServer.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/SqlServer/SqlServer.php
+END

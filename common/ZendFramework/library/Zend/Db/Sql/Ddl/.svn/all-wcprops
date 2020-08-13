@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl
+END
+CreateTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/CreateTable.php
+END
+DropTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/DropTable.php
+END
+AlterTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/AlterTable.php
+END
+SqlInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/SqlInterface.php
+END

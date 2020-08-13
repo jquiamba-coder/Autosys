@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol
+END
+SmtpPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/SmtpPluginManager.php
+END
+Pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Pop3.php
+END
+Smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Smtp.php
+END
+AbstractProtocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/AbstractProtocol.php
+END
+Imap.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Imap.php
+END

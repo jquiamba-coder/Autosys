@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/composer.json
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Response.php
+END
+ColorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/ColorInterface.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/CONTRIBUTING.md
+END
+Console.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Console.php
+END
+Getopt.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Getopt.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/README.md
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Request.php
+END

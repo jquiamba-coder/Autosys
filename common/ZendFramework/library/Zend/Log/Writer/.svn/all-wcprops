@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer
+END
+Mock.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Mock.php
+END
+Stream.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Stream.php
+END
+FirePhp.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/FirePhp.php
+END
+WriterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/WriterInterface.php
+END
+FilterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/FilterPluginManager.php
+END
+AbstractWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/AbstractWriter.php
+END
+ZendMonitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/ZendMonitor.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Null.php
+END
+Noop.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Noop.php
+END
+FormatterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/FormatterPluginManager.php
+END
+Syslog.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Syslog.php
+END
+FingersCrossed.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/FingersCrossed.php
+END
+Mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Mail.php
+END
+ChromePhp.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/ChromePhp.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/Db.php
+END
+MongoDB.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Log/Writer/MongoDB.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Exception/RuntimeException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mail/Protocol/Exception/InvalidArgumentException.php
+END

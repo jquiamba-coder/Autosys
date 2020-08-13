@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter
+END
+ValidatableAdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/ValidatableAdapterInterface.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Callback.php
+END
+DbTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/DbTable.php
+END
+Digest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Digest.php
+END
+Http.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Http.php
+END
+Ldap.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Ldap.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/AdapterInterface.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/AbstractAdapter.php
+END

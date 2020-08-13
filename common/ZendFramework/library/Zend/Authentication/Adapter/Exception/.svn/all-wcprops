@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Exception/ExceptionInterface.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Exception/UnexpectedValueException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Exception/RuntimeException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Adapter/Exception/InvalidArgumentException.php
+END

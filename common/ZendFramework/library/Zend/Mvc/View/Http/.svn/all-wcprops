@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http
+END
+InjectTemplateListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/InjectTemplateListener.php
+END
+InjectViewModelListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/InjectViewModelListener.php
+END
+RouteNotFoundStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/RouteNotFoundStrategy.php
+END
+ExceptionStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/ExceptionStrategy.php
+END
+InjectRoutematchParamsListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/InjectRoutematchParamsListener.php
+END
+CreateViewModelListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/CreateViewModelListener.php
+END
+DefaultRenderingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php
+END
+ViewManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/View/Http/ViewManager.php
+END

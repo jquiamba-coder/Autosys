@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader
+END
+Excel2007.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Excel2007.php
+END
+Gnumeric.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Gnumeric.php
+END
+IReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/IReadFilter.php
+END
+CSV.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/CSV.php
+END
+IReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/IReader.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Exception.php
+END
+OOCalc.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/OOCalc.php
+END
+SYLK.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/SYLK.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Abstract.php
+END
+HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/HTML.php
+END
+Excel5.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Excel5.php
+END
+DefaultReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/DefaultReadFilter.php
+END
+Excel2003XML.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Reader/Excel2003XML.php
+END

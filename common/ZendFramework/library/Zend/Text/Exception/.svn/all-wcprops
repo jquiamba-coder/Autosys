@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/ExceptionInterface.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/UnexpectedValueException.php
+END
+OverflowException.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/OverflowException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/RuntimeException.php
+END
+OutOfBoundsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/OutOfBoundsException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Exception/InvalidArgumentException.php
+END

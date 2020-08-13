@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib
+END
+CallbackHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/CallbackHandler.php
+END
+DateTime.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/DateTime.php
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Response.php
+END
+ArrayUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ArrayUtils.php
+END
+JsonSerializable.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/JsonSerializable.php
+END
+InitializableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/InitializableInterface.php
+END
+SplQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/SplQueue.php
+END
+Parameters.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Parameters.php
+END
+DispatchableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/DispatchableInterface.php
+END
+ArrayStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ArrayStack.php
+END
+MessageInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/MessageInterface.php
+END
+SplPriorityQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/SplPriorityQueue.php
+END
+ArrayObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ArrayObject.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/composer.json
+END
+RequestInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/RequestInterface.php
+END
+PriorityList.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/PriorityList.php
+END
+AbstractOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/AbstractOptions.php
+END
+ResponseInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ResponseInterface.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/CONTRIBUTING.md
+END
+Glob.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Glob.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Message.php
+END
+SplStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/SplStack.php
+END
+ParametersInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ParametersInterface.php
+END
+PriorityQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/PriorityQueue.php
+END
+ArraySerializableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ArraySerializableInterface.php
+END
+ErrorHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ErrorHandler.php
+END
+StringUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringUtils.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Request.php
+END
+ParameterObjectInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/ParameterObjectInterface.php
+END

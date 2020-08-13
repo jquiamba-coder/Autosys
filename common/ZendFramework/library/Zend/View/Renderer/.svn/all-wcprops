@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer
+END
+ConsoleRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/ConsoleRenderer.php
+END
+FeedRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/FeedRenderer.php
+END
+PhpRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/PhpRenderer.php
+END
+JsonRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/JsonRenderer.php
+END
+RendererInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/RendererInterface.php
+END
+TreeRendererInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/View/Renderer/TreeRendererInterface.php
+END

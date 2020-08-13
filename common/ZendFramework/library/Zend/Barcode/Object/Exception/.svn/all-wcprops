@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception
+END
+BarcodeValidationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/BarcodeValidationException.php
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/RuntimeException.php
+END
+ExtensionNotLoadedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/ExtensionNotLoadedException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/InvalidArgumentException.php
+END
+OutOfRangeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Barcode/Object/Exception/OutOfRangeException.php
+END

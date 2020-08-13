@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/composer.json
+END
+ItemList.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/ItemList.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/Item.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/CONTRIBUTING.md
+END
+Cloud.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/Cloud.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/README.md
+END
+TaggableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Tag/TaggableInterface.php
+END

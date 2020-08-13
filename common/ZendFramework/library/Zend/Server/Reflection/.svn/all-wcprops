@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection
+END
+AbstractFunction.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/AbstractFunction.php
+END
+ReflectionMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/ReflectionMethod.php
+END
+ReflectionParameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/ReflectionParameter.php
+END
+ReflectionClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/ReflectionClass.php
+END
+ReflectionFunction.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/ReflectionFunction.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/Node.php
+END
+Prototype.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/Prototype.php
+END
+ReflectionReturnValue.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Server/Reflection/ReflectionReturnValue.php
+END

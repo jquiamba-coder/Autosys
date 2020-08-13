@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/ExceptionInterface.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/UnexpectedValueException.php
+END
+OverflowException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/OverflowException.php
+END
+OutOfBoundsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/OutOfBoundsException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/InvalidArgumentException.php
+END
+InvalidDecoratorException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Text/Table/Exception/InvalidDecoratorException.php
+END

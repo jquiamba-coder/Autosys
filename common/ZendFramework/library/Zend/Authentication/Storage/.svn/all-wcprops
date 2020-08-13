@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Storage
+END
+NonPersistent.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Storage/NonPersistent.php
+END
+Chain.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Storage/Chain.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Storage/Session.php
+END
+StorageInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Authentication/Storage/StorageInterface.php
+END

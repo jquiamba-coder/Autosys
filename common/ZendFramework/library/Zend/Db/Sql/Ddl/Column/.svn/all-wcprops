@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column
+END
+Datetime.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Datetime.php
+END
+Integer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Integer.php
+END
+Column.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Column.php
+END
+AbstractPrecisionColumn.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/AbstractPrecisionColumn.php
+END
+Varbinary.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Varbinary.php
+END
+Decimal.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Decimal.php
+END
+Time.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Time.php
+END
+Floating.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Floating.php
+END
+Timestamp.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Timestamp.php
+END
+Float.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Float.php
+END
+AbstractTimestampColumn.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/AbstractTimestampColumn.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Date.php
+END
+Char.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Char.php
+END
+ColumnInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/ColumnInterface.php
+END
+Blob.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Blob.php
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Boolean.php
+END
+BigInteger.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/BigInteger.php
+END
+AbstractLengthColumn.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/AbstractLengthColumn.php
+END
+Binary.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Binary.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Text.php
+END
+Varchar.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Column/Varchar.php
+END

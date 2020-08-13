@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/composer.json
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/File.php
+END
+Http.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/Http.php
+END
+Uri.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/Uri.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/CONTRIBUTING.md
+END
+UriInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/UriInterface.php
+END
+Mailto.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/Mailto.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/README.md
+END
+UriFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Uri/UriFactory.php
+END

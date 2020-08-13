@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag
+END
+ReturnTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/ReturnTag.php
+END
+MethodTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/MethodTag.php
+END
+ParamTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/ParamTag.php
+END
+TagInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/TagInterface.php
+END
+AuthorTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/AuthorTag.php
+END
+LicenseTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/LicenseTag.php
+END
+PhpDocTypedTagInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/PhpDocTypedTagInterface.php
+END
+PropertyTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/PropertyTag.php
+END
+ThrowsTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/ThrowsTag.php
+END
+GenericTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Reflection/DocBlock/Tag/GenericTag.php
+END

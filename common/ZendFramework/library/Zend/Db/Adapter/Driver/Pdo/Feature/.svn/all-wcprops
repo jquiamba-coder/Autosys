@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Pdo/Feature
+END
+SqliteRowCounter.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Pdo/Feature/SqliteRowCounter.php
+END
+OracleRowCounter.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Pdo/Feature/OracleRowCounter.php
+END

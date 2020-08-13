@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter
+END
+AdapterServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/AdapterServiceFactory.php
+END
+AdapterAbstractServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/AdapterAbstractServiceFactory.php
+END
+Adapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Adapter.php
+END
+AdapterAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/AdapterAwareInterface.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/AdapterInterface.php
+END
+ParameterContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/ParameterContainer.php
+END
+AdapterAwareTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/AdapterAwareTrait.php
+END
+StatementContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/StatementContainer.php
+END
+StatementContainerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/StatementContainerInterface.php
+END

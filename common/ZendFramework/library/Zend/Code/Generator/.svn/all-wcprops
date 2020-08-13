@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator
+END
+TraitUsageInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/TraitUsageInterface.php
+END
+TraitGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/TraitGenerator.php
+END
+PropertyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/PropertyGenerator.php
+END
+AbstractMemberGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/AbstractMemberGenerator.php
+END
+BodyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/BodyGenerator.php
+END
+GeneratorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/GeneratorInterface.php
+END
+AbstractGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/AbstractGenerator.php
+END
+ClassGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/ClassGenerator.php
+END
+TraitUsageGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/TraitUsageGenerator.php
+END
+FileGeneratorRegistry.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/FileGeneratorRegistry.php
+END
+ValueGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/ValueGenerator.php
+END
+FileGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/FileGenerator.php
+END
+DocBlockGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/DocBlockGenerator.php
+END
+ParameterGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/ParameterGenerator.php
+END
+MethodGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/MethodGenerator.php
+END
+PropertyValueGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Generator/PropertyValueGenerator.php
+END

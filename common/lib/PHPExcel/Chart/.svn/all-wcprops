@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/Layout.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/Exception.php
+END
+Legend.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/Legend.php
+END
+Title.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/Title.php
+END
+DataSeries.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/DataSeries.php
+END
+DataSeriesValues.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/DataSeriesValues.php
+END
+PlotArea.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Chart/PlotArea.php
+END

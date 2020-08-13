@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/composer.json
+END
+AdapterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/AdapterPluginManager.php
+END
+PaginatorIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/PaginatorIterator.php
+END
+SerializableLimitIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/SerializableLimitIterator.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/CONTRIBUTING.md
+END
+Paginator.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Paginator.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/README.md
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Factory.php
+END
+ScrollingStylePluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/ScrollingStylePluginManager.php
+END
+AdapterAggregateInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/AdapterAggregateInterface.php
+END

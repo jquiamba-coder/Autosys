@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Resource
+END
+GenericResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Resource/GenericResource.php
+END
+ResourceInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Resource/ResourceInterface.php
+END

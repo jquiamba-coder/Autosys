@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/ExceptionInterface.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/RuntimeException.php
+END
+TimeoutException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/TimeoutException.php
+END
+InitializationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/InitializationException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/InvalidArgumentException.php
+END
+OutOfRangeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Http/Client/Adapter/Exception/OutOfRangeException.php
+END

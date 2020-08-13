@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager
+END
+ServiceManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ServiceManager.php
+END
+ServiceManagerAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ServiceManagerAwareInterface.php
+END
+MutableCreationOptionsTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/MutableCreationOptionsTrait.php
+END
+InitializerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/InitializerInterface.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/Config.php
+END
+ServiceLocatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ServiceLocatorInterface.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/README.md
+END
+ServiceLocatorAwareTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ServiceLocatorAwareTrait.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/composer.json
+END
+MutableCreationOptionsInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/MutableCreationOptionsInterface.php
+END
+AbstractFactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/AbstractFactoryInterface.php
+END
+AbstractPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/AbstractPluginManager.php
+END
+DelegatorFactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/DelegatorFactoryInterface.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/CONTRIBUTING.md
+END
+ServiceLocatorAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ServiceLocatorAwareInterface.php
+END
+ConfigInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/ConfigInterface.php
+END
+FactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/FactoryInterface.php
+END

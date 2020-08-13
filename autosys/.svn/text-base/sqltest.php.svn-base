@@ -1,0 +1,23 @@
+#!/usr/bin/php
+<?php
+set_include_path(get_include_path().PATH_SEPARATOR.'../common/lib/goodyear');
+require_once 'goodyear_functions.php'; 
+require_once 'databases.php'; 
+/*Added by Roman to show how it works*/
+// open the correct db 
+$db_name='ats11'.getenv('AUTOSYS_DB_SUFFIX');
+$db=open_db($db_name);
+$sql="SELECT DISTINCT job_name FROM aedbadmin.ujo_job
+WHERE is_active=1
+AND is_currver=1
+ORDER BY job_name";
+$job_names=getcolfromdb($db,$sql);
+$count=count($job_names);
+print("$count jobnames returned\n");
+foreach($job_names as $job_name) {
+  print("$job_name\n");
+}
+print("$count jobnames returned\n");
+exit;
+
+

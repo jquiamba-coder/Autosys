@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter
+END
+Windows.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/Windows.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/AdapterInterface.php
+END
+Posix.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/Posix.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/AbstractAdapter.php
+END
+WindowsAnsicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/WindowsAnsicon.php
+END
+Virtual.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Console/Adapter/Virtual.php
+END

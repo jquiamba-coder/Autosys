@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception
+END
+InvalidMagicMimeFileException.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/InvalidMagicMimeFileException.php
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/ExceptionInterface.php
+END
+BadMethodCallException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/BadMethodCallException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/RuntimeException.php
+END
+ExtensionNotLoadedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/ExtensionNotLoadedException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Validator/Exception/InvalidArgumentException.php
+END

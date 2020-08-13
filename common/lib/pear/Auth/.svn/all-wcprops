@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth
+END
+HTTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth/HTTP.php
+END
+Auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth/Auth.php
+END
+Container.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth/Container.php
+END
+Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth/Controller.php
+END
+Anonymous.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1209/common/lib/pear/Auth/Anonymous.php
+END

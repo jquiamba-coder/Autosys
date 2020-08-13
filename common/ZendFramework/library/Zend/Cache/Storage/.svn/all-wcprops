@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage
+END
+PluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/PluginManager.php
+END
+Capabilities.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Capabilities.php
+END
+AdapterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/AdapterPluginManager.php
+END
+OptimizableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/OptimizableInterface.php
+END
+ExceptionEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/ExceptionEvent.php
+END
+IterableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/IterableInterface.php
+END
+IteratorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/IteratorInterface.php
+END
+ClearByNamespaceInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/ClearByNamespaceInterface.php
+END
+ClearByPrefixInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/ClearByPrefixInterface.php
+END
+Event.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Event.php
+END
+AvailableSpaceCapableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/AvailableSpaceCapableInterface.php
+END
+StorageInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/StorageInterface.php
+END
+FlushableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/FlushableInterface.php
+END
+TaggableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/TaggableInterface.php
+END
+PostEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/PostEvent.php
+END
+ClearExpiredInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/ClearExpiredInterface.php
+END
+TotalSpaceCapableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/TotalSpaceCapableInterface.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy
+END
+ArrayMapNamingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/ArrayMapNamingStrategy.php
+END
+MapNamingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/MapNamingStrategy.php
+END
+NamingStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/NamingStrategyInterface.php
+END
+CompositeNamingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/CompositeNamingStrategy.php
+END
+IdentityNamingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/IdentityNamingStrategy.php
+END
+UnderscoreNamingStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategy/UnderscoreNamingStrategy.php
+END

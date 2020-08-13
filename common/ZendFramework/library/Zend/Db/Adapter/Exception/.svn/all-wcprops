@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception
+END
+InvalidConnectionParametersException.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/InvalidConnectionParametersException.php
+END
+InvalidQueryException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/InvalidQueryException.php
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/ExceptionInterface.php
+END
+UnexpectedValueException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/UnexpectedValueException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/RuntimeException.php
+END
+ErrorException.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/ErrorException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Exception/InvalidArgumentException.php
+END

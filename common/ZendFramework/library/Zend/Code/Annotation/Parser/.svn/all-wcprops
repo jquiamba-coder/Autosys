@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Annotation/Parser
+END
+ParserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Annotation/Parser/ParserInterface.php
+END
+DoctrineAnnotationParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Annotation/Parser/DoctrineAnnotationParser.php
+END
+GenericAnnotationParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Code/Annotation/Parser/GenericAnnotationParser.php
+END

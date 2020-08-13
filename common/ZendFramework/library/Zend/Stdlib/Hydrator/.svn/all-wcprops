@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator
+END
+HydratorOptionsInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydratorOptionsInterface.php
+END
+ClassMethods.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/ClassMethods.php
+END
+Reflection.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Reflection.php
+END
+HydratorAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydratorAwareInterface.php
+END
+StrategyEnabledInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/StrategyEnabledInterface.php
+END
+ArraySerializable.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/ArraySerializable.php
+END
+HydratorPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydratorPluginManager.php
+END
+DelegatingHydratorFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/DelegatingHydratorFactory.php
+END
+ObjectProperty.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/ObjectProperty.php
+END
+HydratorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydratorInterface.php
+END
+AbstractHydrator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/AbstractHydrator.php
+END
+HydratorAwareTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydratorAwareTrait.php
+END
+DelegatingHydrator.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/DelegatingHydrator.php
+END
+FilterEnabledInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/FilterEnabledInterface.php
+END
+HydrationInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/HydrationInterface.php
+END
+NamingStrategyEnabledInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/NamingStrategyEnabledInterface.php
+END

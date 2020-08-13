@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/Proxy
+END
+LazyServiceFactoryFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/Proxy/LazyServiceFactoryFactory.php
+END
+LazyServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ServiceManager/Proxy/LazyServiceFactory.php
+END

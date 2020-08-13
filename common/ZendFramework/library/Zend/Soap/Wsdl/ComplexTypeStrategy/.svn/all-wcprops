@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy
+END
+AnyType.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/AnyType.php
+END
+ArrayOfTypeComplex.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeComplex.php
+END
+ComplexTypeStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/ComplexTypeStrategyInterface.php
+END
+ArrayOfTypeSequence.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeSequence.php
+END
+DefaultComplexType.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/DefaultComplexType.php
+END
+AbstractComplexTypeStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/AbstractComplexTypeStrategy.php
+END
+Composite.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/Wsdl/ComplexTypeStrategy/Composite.php
+END

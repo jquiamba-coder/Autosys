@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper
+END
+AbstractStringWrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/AbstractStringWrapper.php
+END
+Iconv.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/Iconv.php
+END
+MbString.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/MbString.php
+END
+Intl.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/Intl.php
+END
+Native.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/Native.php
+END
+StringWrapperInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/StringWrapper/StringWrapperInterface.php
+END

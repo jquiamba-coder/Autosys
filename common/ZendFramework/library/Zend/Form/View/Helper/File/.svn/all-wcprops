@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Form/View/Helper/File
+END
+FormFileApcProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Form/View/Helper/File/FormFileApcProgress.php
+END
+FormFileSessionProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Form/View/Helper/File/FormFileSessionProgress.php
+END
+FormFileUploadProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Form/View/Helper/File/FormFileUploadProgress.php
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter
+END
+OptionalParametersFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/OptionalParametersFilter.php
+END
+FilterProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/FilterProviderInterface.php
+END
+HasFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/HasFilter.php
+END
+IsFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/IsFilter.php
+END
+MethodMatchFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/MethodMatchFilter.php
+END
+NumberOfParameterFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/NumberOfParameterFilter.php
+END
+GetFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/GetFilter.php
+END
+FilterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/FilterInterface.php
+END
+FilterComposite.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Filter/FilterComposite.php
+END

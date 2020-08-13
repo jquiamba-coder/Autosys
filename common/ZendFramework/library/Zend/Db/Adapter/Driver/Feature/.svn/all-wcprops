@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Feature
+END
+AbstractFeature.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Feature/AbstractFeature.php
+END
+DriverFeatureInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Adapter/Driver/Feature/DriverFeatureInterface.php
+END

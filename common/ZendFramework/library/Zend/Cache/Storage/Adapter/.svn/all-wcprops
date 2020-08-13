@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter
+END
+XCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/XCache.php
+END
+AdapterOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/AdapterOptions.php
+END
+WinCacheOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/WinCacheOptions.php
+END
+FilesystemIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/FilesystemIterator.php
+END
+KeyListIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/KeyListIterator.php
+END
+SessionOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/SessionOptions.php
+END
+DbaIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/DbaIterator.php
+END
+Apc.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Apc.php
+END
+MemcacheResourceManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MemcacheResourceManager.php
+END
+XCacheOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/XCacheOptions.php
+END
+RedisResourceManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/RedisResourceManager.php
+END
+MemcachedResourceManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MemcachedResourceManager.php
+END
+AbstractZendServer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/AbstractZendServer.php
+END
+ApcIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/ApcIterator.php
+END
+MemcacheOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MemcacheOptions.php
+END
+ApcOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/ApcOptions.php
+END
+RedisOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/RedisOptions.php
+END
+MemcachedOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MemcachedOptions.php
+END
+MemoryOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MemoryOptions.php
+END
+MongoDb.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MongoDb.php
+END
+MongoDbResourceManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MongoDbResourceManager.php
+END
+ZendServerShm.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/ZendServerShm.php
+END
+FilesystemOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/FilesystemOptions.php
+END
+MongoDbOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/MongoDbOptions.php
+END
+DbaOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/DbaOptions.php
+END
+Memcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Memcache.php
+END
+ZendServerDisk.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/ZendServerDisk.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/AbstractAdapter.php
+END
+Redis.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Redis.php
+END
+Memcached.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Memcached.php
+END
+Memory.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Memory.php
+END
+WinCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/WinCache.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Session.php
+END
+BlackHole.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/BlackHole.php
+END
+Filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Filesystem.php
+END
+Dba.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Cache/Storage/Adapter/Dba.php
+END

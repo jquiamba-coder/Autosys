@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/NIDB/!svn/ver/1068/common/scripts
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NIDB/!svn/ver/1018/common/scripts/phpinfo.php
+END
+svn_checkout
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NIDB/!svn/ver/1062/common/scripts/svn_checkout
+END
+cli_gaims.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NIDB/!svn/ver/1018/common/scripts/cli_gaims.php
+END
+cli_dns_check.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NIDB/!svn/ver/1018/common/scripts/cli_dns_check.php
+END
+datetime.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/NIDB/!svn/ver/1068/common/scripts/datetime.cmd
+END
+svn_add
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/NIDB/!svn/ver/1061/common/scripts/svn_add
+END
+svn_commit
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NIDB/!svn/ver/1063/common/scripts/svn_commit
+END

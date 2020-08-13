@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/IbmDb2
+END
+IbmDb2.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/IbmDb2/IbmDb2.php
+END
+SelectDecorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/IbmDb2/SelectDecorator.php
+END

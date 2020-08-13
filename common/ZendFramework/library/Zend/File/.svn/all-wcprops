@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File
+END
+ClassFileLocator.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File/ClassFileLocator.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File/composer.json
+END
+PhpClassFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File/PhpClassFile.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File/CONTRIBUTING.md
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/File/README.md
+END

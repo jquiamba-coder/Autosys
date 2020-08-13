@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service
+END
+ConsoleAdapterFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ConsoleAdapterFactory.php
+END
+TranslatorPluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/TranslatorPluginManagerFactory.php
+END
+HttpViewManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/HttpViewManagerFactory.php
+END
+ConfigFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ConfigFactory.php
+END
+FormAnnotationBuilderFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/FormAnnotationBuilderFactory.php
+END
+ServiceListenerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ServiceListenerFactory.php
+END
+RoutePluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/RoutePluginManagerFactory.php
+END
+LogWriterManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/LogWriterManagerFactory.php
+END
+ControllerLoaderFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ControllerLoaderFactory.php
+END
+TranslatorServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/TranslatorServiceFactory.php
+END
+LogProcessorManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/LogProcessorManagerFactory.php
+END
+ViewPrefixPathStackResolverFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewPrefixPathStackResolverFactory.php
+END
+RouterFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/RouterFactory.php
+END
+ValidatorManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ValidatorManagerFactory.php
+END
+ViewFeedStrategyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewFeedStrategyFactory.php
+END
+SerializerAdapterPluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/SerializerAdapterPluginManagerFactory.php
+END
+ViewTemplateMapResolverFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewTemplateMapResolverFactory.php
+END
+RequestFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/RequestFactory.php
+END
+ServiceManagerConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ServiceManagerConfig.php
+END
+DiAbstractServiceFactoryFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/DiAbstractServiceFactoryFactory.php
+END
+DiStrictAbstractServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/DiStrictAbstractServiceFactory.php
+END
+ViewResolverFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewResolverFactory.php
+END
+InputFilterManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/InputFilterManagerFactory.php
+END
+ApplicationFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ApplicationFactory.php
+END
+ViewHelperManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewHelperManagerFactory.php
+END
+ViewManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewManagerFactory.php
+END
+FormElementManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/FormElementManagerFactory.php
+END
+ViewTemplatePathStackFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewTemplatePathStackFactory.php
+END
+EventManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/EventManagerFactory.php
+END
+AbstractPluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/AbstractPluginManagerFactory.php
+END
+InjectTemplateListenerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/InjectTemplateListenerFactory.php
+END
+ModuleManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ModuleManagerFactory.php
+END
+FilterManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/FilterManagerFactory.php
+END
+DiServiceInitializerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/DiServiceInitializerFactory.php
+END
+DiStrictAbstractServiceFactoryFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/DiStrictAbstractServiceFactoryFactory.php
+END
+HttpMethodListenerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/HttpMethodListenerFactory.php
+END
+HydratorManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/HydratorManagerFactory.php
+END
+ViewJsonStrategyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ViewJsonStrategyFactory.php
+END
+ConsoleViewManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ConsoleViewManagerFactory.php
+END
+DiFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/DiFactory.php
+END
+ControllerPluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ControllerPluginManagerFactory.php
+END
+ResponseFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/ResponseFactory.php
+END
+PaginatorPluginManagerFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Mvc/Service/PaginatorPluginManagerFactory.php
+END

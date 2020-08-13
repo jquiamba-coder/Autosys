@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy
+END
+SerializableStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/SerializableStrategy.php
+END
+ClosureStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/ClosureStrategy.php
+END
+BooleanStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/BooleanStrategy.php
+END
+DateTimeFormatterStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/DateTimeFormatterStrategy.php
+END
+ExplodeStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/ExplodeStrategy.php
+END
+StrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/StrategyInterface.php
+END
+StrategyChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/StrategyChain.php
+END
+DefaultStrategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Stdlib/Hydrator/Strategy/DefaultStrategy.php
+END

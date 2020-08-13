@@ -1,0 +1,6 @@
+SELECT COUNT(*) as Event_Policy_Count FROM MON_EVENT_EVENT_POLICY;
+SELECT COUNT(*) as Mon_Event_Count FROM MON_EVENT;
+alter table MON_EVENT_EVENT_POLICY disable constraint MONEVENTEVENTPOLICYEVENTID;
+truncate table MON_EVENT_EVENT_POLICY; 
+truncate table MON_EVENT;
+alter table MON_EVENT_EVENT_POLICY enable constraint MONEVENTEVENTPOLICYEVENTID;

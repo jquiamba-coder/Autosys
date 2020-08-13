@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/XmlRpc/Generator
+END
+AbstractGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/XmlRpc/Generator/AbstractGenerator.php
+END
+XmlWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/XmlRpc/Generator/XmlWriter.php
+END
+DomDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/XmlRpc/Generator/DomDocument.php
+END
+GeneratorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/XmlRpc/Generator/GeneratorInterface.php
+END

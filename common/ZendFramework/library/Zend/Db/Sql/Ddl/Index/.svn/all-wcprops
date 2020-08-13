@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Index
+END
+AbstractIndex.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Index/AbstractIndex.php
+END
+Index.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Index/Index.php
+END

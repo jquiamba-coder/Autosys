@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader
+END
+AbstractFileLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/AbstractFileLoader.php
+END
+Ini.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/Ini.php
+END
+PhpMemoryArray.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/PhpMemoryArray.php
+END
+RemoteLoaderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/RemoteLoaderInterface.php
+END
+Gettext.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/Gettext.php
+END
+PhpArray.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/PhpArray.php
+END
+FileLoaderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/I18n/Translator/Loader/FileLoaderInterface.php
+END

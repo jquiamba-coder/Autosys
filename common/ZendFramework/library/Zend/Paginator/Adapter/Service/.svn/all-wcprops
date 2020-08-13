@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Adapter/Service
+END
+DbSelectFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Adapter/Service/DbSelectFactory.php
+END
+CallbackFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Adapter/Service/CallbackFactory.php
+END
+DbTableGatewayFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Paginator/Adapter/Service/DbTableGatewayFactory.php
+END

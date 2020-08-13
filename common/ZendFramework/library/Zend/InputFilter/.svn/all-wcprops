@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter
+END
+InputFilterAwareTrait.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterAwareTrait.php
+END
+InputProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputProviderInterface.php
+END
+UnknownInputsCapableInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/UnknownInputsCapableInterface.php
+END
+ArrayInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/ArrayInput.php
+END
+Input.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/Input.php
+END
+FileInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/FileInput.php
+END
+BaseInputFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/BaseInputFilter.php
+END
+ReplaceableInputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/ReplaceableInputInterface.php
+END
+InputFilterProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterProviderInterface.php
+END
+InputFilterAbstractServiceFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterAbstractServiceFactory.php
+END
+InputFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilter.php
+END
+InputFilterAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterAwareInterface.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/README.md
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/Factory.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/composer.json
+END
+InputFilterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterPluginManager.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/CONTRIBUTING.md
+END
+InputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputInterface.php
+END
+CollectionInputFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/CollectionInputFilter.php
+END
+EmptyContextInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/EmptyContextInterface.php
+END
+InputFilterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/InputFilter/InputFilterInterface.php
+END

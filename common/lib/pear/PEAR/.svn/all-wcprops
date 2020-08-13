@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Validate.php
+END
+Info.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Info.php
+END
+PackageFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/PackageFile.php
+END
+Installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Installer.php
+END
+Downloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Downloader.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Exception.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Autoloader.php
+END
+Dependency2.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Dependency2.php
+END
+FixPHP5PEARWarnings.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/FixPHP5PEARWarnings.php
+END
+RunTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/RunTest.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Config.php
+END
+ChannelFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/ChannelFile.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Registry.php
+END
+REST.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/REST.php
+END
+XMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/XMLParser.php
+END
+Packager.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Packager.php
+END
+Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Command.php
+END
+Frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Frontend.php
+END
+ErrorStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/ErrorStack.php
+END
+DependencyDB.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/DependencyDB.php
+END
+Builder.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Builder.php
+END
+Common.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NIDB/!svn/ver/1209/common/lib/pear/PEAR/Common.php
+END

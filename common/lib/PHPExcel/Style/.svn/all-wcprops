@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style
+END
+Border.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Border.php
+END
+Alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Alignment.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Color.php
+END
+Borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Borders.php
+END
+NumberFormat.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/NumberFormat.php
+END
+Supervisor.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Supervisor.php
+END
+Conditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Conditional.php
+END
+Fill.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Fill.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Font.php
+END
+Protection.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1030/common/lib/PHPExcel/Style/Protection.php
+END

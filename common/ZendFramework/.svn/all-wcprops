@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/NIDB/!svn/ver/1714/common/ZendFramework
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/composer.json
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/LICENSE.txt
+END
+INSTALL.md
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/INSTALL.md
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/CHANGELOG.md
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/CONTRIBUTING.md
+END
+.coveralls.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/.coveralls.yml
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/README.md
+END
+README-GIT.md
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/README-GIT.md
+END
+composer.lock
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/composer.lock
+END

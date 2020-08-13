@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Assertion
+END
+AssertionAggregate.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Assertion/AssertionAggregate.php
+END
+AssertionManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Assertion/AssertionManager.php
+END
+CallbackAssertion.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Assertion/CallbackAssertion.php
+END
+AssertionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Permissions/Acl/Assertion/AssertionInterface.php
+END

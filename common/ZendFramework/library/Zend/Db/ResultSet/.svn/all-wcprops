@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/ResultSet
+END
+ResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/ResultSet/ResultSet.php
+END
+ResultSetInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/ResultSet/ResultSetInterface.php
+END
+AbstractResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/ResultSet/AbstractResultSet.php
+END
+HydratingResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/ResultSet/HydratingResultSet.php
+END

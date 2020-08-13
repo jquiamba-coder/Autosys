@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/NIDB/!svn/ver/2990/autosys/wcc
+END
+autosys_wcc_count_all_monevents.sql
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/2882/autosys/wcc/autosys_wcc_count_all_monevents.sql
+END
+gy.autosys.wcc.monevents.truncate.sql
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.monevents.truncate.sql
+END
+gy.autosys.wcc.monevents.truncate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.monevents.truncate.xml
+END
+autosys_wcc_count_all_monevents.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/2882/autosys/wcc/autosys_wcc_count_all_monevents.cmd
+END
+gy.autosys.wcc.monevents.truncate.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.monevents.truncate.cmd
+END
+gy.autosys.wcc.services.restart.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.services.restart.xml
+END
+autosys_wcc_select_all_monevents.sql
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/2882/autosys/wcc/autosys_wcc_select_all_monevents.sql
+END
+gy.autosys.wcc.monevents.truncate.bat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.monevents.truncate.bat
+END
+gy.autosys.wcc.services.restart.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/2882/autosys/wcc/gy.autosys.wcc.services.restart.cmd
+END
+autosys_wcc_select_all_monevents.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/2882/autosys/wcc/autosys_wcc_select_all_monevents.cmd
+END
+gy.autosys.wcc.services.restart.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/2990/autosys/wcc/gy.autosys.wcc.services.restart.bat
+END

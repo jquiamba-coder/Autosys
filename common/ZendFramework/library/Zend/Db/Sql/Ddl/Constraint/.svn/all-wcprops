@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint
+END
+PrimaryKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/PrimaryKey.php
+END
+Check.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/Check.php
+END
+UniqueKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/UniqueKey.php
+END
+ForeignKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/ForeignKey.php
+END
+ConstraintInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/ConstraintInterface.php
+END
+AbstractConstraint.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Ddl/Constraint/AbstractConstraint.php
+END

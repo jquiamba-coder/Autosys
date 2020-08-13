@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" == "" ]; then
+ echo "must supply a repository"
+ exit 1;
+fi
+svn --username ldnidb1 --password 9Yf1Mu2Nv1Px1Mu checkout https://ipub.goodyear.com/svn/NIDB/$1

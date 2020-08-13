@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/AutoDiscover/DiscoveryStrategy
+END
+DiscoveryStrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/AutoDiscover/DiscoveryStrategy/DiscoveryStrategyInterface.php
+END
+ReflectionDiscovery.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Soap/AutoDiscover/DiscoveryStrategy/ReflectionDiscovery.php
+END

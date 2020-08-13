@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/EventManager/Exception
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/EventManager/Exception/ExceptionInterface.php
+END
+InvalidCallbackException.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/EventManager/Exception/InvalidCallbackException.php
+END
+DomainException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/EventManager/Exception/DomainException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/EventManager/Exception/InvalidArgumentException.php
+END

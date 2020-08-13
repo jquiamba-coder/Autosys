@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Callback.php
+END
+DateTimeSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/DateTimeSelect.php
+END
+StaticFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StaticFilter.php
+END
+ToInt.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/ToInt.php
+END
+StringTrim.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StringTrim.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/README.md
+END
+FilterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/FilterInterface.php
+END
+StripNewlines.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StripNewlines.php
+END
+UpperCaseWords.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/UpperCaseWords.php
+END
+Blacklist.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Blacklist.php
+END
+AbstractFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/AbstractFilter.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Null.php
+END
+Whitelist.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Whitelist.php
+END
+DateSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/DateSelect.php
+END
+ToNull.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/ToNull.php
+END
+AbstractDateDropdown.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/AbstractDateDropdown.php
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/CONTRIBUTING.md
+END
+DateTimeFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/DateTimeFormatter.php
+END
+StripTags.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StripTags.php
+END
+UriNormalize.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/UriNormalize.php
+END
+StringToLower.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StringToLower.php
+END
+Encrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Encrypt.php
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Inflector.php
+END
+PregReplace.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/PregReplace.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Int.php
+END
+Compress.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Compress.php
+END
+DataUnitFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/DataUnitFormatter.php
+END
+FilterPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/FilterPluginManager.php
+END
+RealPath.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/RealPath.php
+END
+Decompress.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Decompress.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/composer.json
+END
+HtmlEntities.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/HtmlEntities.php
+END
+AbstractUnicode.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/AbstractUnicode.php
+END
+Decrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Decrypt.php
+END
+BaseName.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/BaseName.php
+END
+Dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Dir.php
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Boolean.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/Digits.php
+END
+MonthSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/MonthSelect.php
+END
+StringToUpper.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/StringToUpper.php
+END
+FilterChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Filter/FilterChain.php
+END

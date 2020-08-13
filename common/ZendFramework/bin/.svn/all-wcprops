@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin
+END
+classmap_generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/classmap_generator.php
+END
+createAutoloadTestClasses.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/createAutoloadTestClasses.php
+END
+templatemap_generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/templatemap_generator.php
+END
+pluginmap_generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/pluginmap_generator.php
+END
+autoload_example.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/autoload_example.php
+END
+update_hostname_validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/update_hostname_validator.php
+END
+autoload_examples.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/bin/autoload_examples.php
+END

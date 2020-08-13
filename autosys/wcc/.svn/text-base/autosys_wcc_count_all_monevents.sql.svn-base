@@ -1,0 +1,2 @@
+SELECT COUNT(*) as Event_Policy_Count FROM MON_EVENT_EVENT_POLICY;
+SELECT COUNT(*) as Mon_Event_Count FROM MON_EVENT;

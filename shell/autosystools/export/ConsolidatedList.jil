@@ -1,0 +1,2099 @@
+
+
+/* ----------------- EWM_U_WM_B_D_CIF_REFRESH ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_CIF_REFRESH   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 0
+condition: s(NAT_U_CU_B_D_YSDC2000)
+description: "2011-4373/Gen material CIF"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_RGEN_IEWM_MAT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RGEN_IEWM_MAT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RGEN_IEWM_MAT
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ gen material CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IMEWM_CUS2 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IMEWM_CUS2   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_REGEN_IMEWM_CUS2
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ gen customerl CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IEWM_VEND ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IEWM_VEND   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_REGEN_IEWM_VEND
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ gen carrier CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IEWM_POOL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IEWM_POOL   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: sapjob JOBNAME=EWM_U_WM_C_D_REGEN_IEWM_POOL START=C +c akrsrv605_AC2_00
+ machine: devsap
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes"
+ description: "yyyy-nnnn/ gen pool point CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_MAT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_MAT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IEWM_MAT
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_RGEN_IEWM_MAT)
+ description: "2011-4373per email/ activate material CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IMEWM_CUS2 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IMEWM_CUS2   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IMEWM_CUS2
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_REGEN_IMEWM_CUS2)
+ description: "2011-4373/ activate customer CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_VEND ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_VEND   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IEWM_VEND
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_REGEN_IEWM_VEND)
+ description: "2011-4373/ activate carrier CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_POOL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_POOL   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: sapjob JOBNAME=EWM_U_WM_C_D_RDAC_IEWM_POOL START=C +c akrsrv605_AC2_00
+ machine: devsap
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes" & s(EWM_U_WM_C_D_REGEN_IEWM_POOL)
+ description: "yyyy-nnnn/ pool point CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RCIFIMAX ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RCIFIMAX   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RCIFIMAX
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & s(EWM_U_WM_C_D_RDAC_IEWM_MAT) & s(EWM_C_WM_C_D_RDAC_IEWM_VEND) & s(EWM_C_WM_C_D_RDAC_IEWM_COOL) & s(EWM_C_WM_C_D_RDAC_IMEWM_CUS2)
+ description: "2011-4373/ build run time version master CIF model"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IEWM_PLANT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IEWM_PLANT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: sapjob JOBNAME=EWM_U_WM_C_D_REGEN_IEWM_PLANT START=C +c akrsrv605_AC2_00
+ machine: devsap
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes" & s(EWM_U_WM_C_D_RGEN_IEWM_MAT)
+ description: "yyyy-nnnn/ gen plant CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_PLANT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_PLANT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IEWM_PLANT
+ machine: devsap
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes" & s(EWM_U_WM_C_D_RGEN_IEWM_MAT)
+ description: "yyyy-nnnn/ activate plant CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IEWM_COOL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IEWM_COOL   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_REGEN_IEWM_COOL
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ gen pool point CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_COOL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_COOL   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IEWM_COOL
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_REGEN_IEWM_COOL)
+ description: "2011-4373/ pool point CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_REGEN_IEWM_CLANT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_REGEN_IEWM_CLANT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_REGEN_IEWM_CLANT
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_RGEN_IEWM_MAT)
+ description: "2011-4373/ gen plant CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_D_RDAC_IEWM_CLANT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_RDAC_IEWM_CLANT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_REFRESH
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_RDAC_IEWM_CLANT
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes" & d(EWM_U_WM_C_D_RGEN_IEWM_MAT)
+ description: "2011-4373/ activate plant CIF"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_D_CIF_RIMODDEL ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_CIF_RIMODDEL   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 0
+condition: s(EWM_U_WM_B_D_CIF_REFRESH)
+description: "2011-4373/delete old cif models"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_CIF_RIMODDEL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_CIF_RIMODDEL   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_RIMODDEL
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_CIF_RIMODDEL
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ delete old cif models"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_Z_YWM_LMS ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_YWM_LMS   job_type: BOX 
+owner: ld874p1@akrhp080
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 00, 15, 30,45
+description: "yyyy-nnnn/transmit perfect order daya to EDW"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS START=C -y 55
+ machine: devsap
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes"
+ description: "yyyy-nnnn/transmit perfect order data to EDW"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N699 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N699   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N699 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N602)
+ description: "Wrong SAP instance/transmit perfect order data to EDW | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N699 has failed in Test. Automatic priority 3 ticket generated."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N699 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N602 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N602   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N602 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes"
+ description: "wrong sap instance/transmit perfect order data to EDW | RFC 1110187 | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N602 has failed in Test. Automatic priority 3 ticket generated."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N602 has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N637 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS)
+ description: "DeKalb WP0 Go Live | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N637 has failed in Test. Automatic priority 3 ticket generated."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N637 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N636 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N636   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N636 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N637)
+ description: "Transmit perfect order data to DeKalb | RFC 1110187 | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N636 has failed in Test. Automatic priority 3 ticket generated."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N636 has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N623 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N623   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N623 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N636)
+ description: "Stockbridge WP0 Go Live | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N623 has failed in Test. Priority 3 ticket generated automatically."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N623 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N607 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N607   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N607 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N65A)
+ description: "McDonough WP0 Go Live | RFC 1110187 | RFC 1113351 | RFC 1117801"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N607 has failed in Test."
+ svcdesk_desc: "Job EWM_U_WM_C_Z_YWM_LMS_N607 has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N65A ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N65A   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N65A START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & v(prodtms_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N623)
+ description: "ITIA 2018-10986 | Stockbridge WP0 Go Live"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_YWM_LMS_N65A has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_YWM_LMS_N65B ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YWM_LMS_N65B   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YWM_LMS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YWM_LMS_N65B START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_Z_YWM_LMS_N607)
+ description: "ITIA 2019-15375 | Transmit perfect order data to EDW"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N65B has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_YPALLETQUANTITY ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_YPALLETQUANTITY   job_type: BOX 
+owner: ld874p1@akdbwu0
+permission: wx,we
+date_conditions: 0
+description: "yyyy-nnnn/transmit pallet data to gantry system"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_YPALLETQUANTITY ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_YPALLETQUANTITY   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_YPALLETQUANTITY
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_YPALLETQUANTITY START=C -y 57
+ machine: devsap
+ owner: ld874p1@akrdbwu0
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes"
+ description: "yyyy-nnnn/transmit pallet data to gantry system"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.common"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_D_CIF_RBDMANI2_ERP ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_CIF_RBDMANI2_ERP   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,15,30,45
+description: "2011-4373/reprocess ERP idocs"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_CIF_RBDMANI2_ERP ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_CIF_RBDMANI2_ERP   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_RBDMANI2_ERP
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_D_CIF_RBDMANI2_ERP
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/ reprocess ERD idocs"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_Z_CIF_RFC_ERR_ERP ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_CIF_RFC_ERR_ERP   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,30
+description: "2011-4373/Reprocess Failed SM58, SMQ1, and SMQ2 errors in ERP"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSARFCEX_ERP ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSARFCEX_ERP   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_ERP
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_Z_RSARFCEX_ERP
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ days_of_week: all
+ start_mins: 00,30
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/Reprocess Failed SM58, SMQ1, and SMQ2 errors in ERP"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSQIWKEX_ERP ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSQIWKEX_ERP   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_ERP
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_Z_RSQIWKEX_ERP
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/Reprocess Failed SM58, SMQ1, and SMQ2 errors in ERP"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSQOWKEX_ERP ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSQOWKEX_ERP   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_ERP
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_Z_RSQOWKEX_ERP
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/Reprocess Failed SM58, SMQ1, and SMQ2 errors in ERP"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_W_CIF_RIMODINI ----------------- */ 
+
+insert_job: EWM_U_WM_B_W_CIF_RIMODINI   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su
+start_times: "04:00"
+description: "2011-4373/start initial supply for integration models"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_W_CIF_RIMODINI ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_CIF_RIMODINI   job_type: CMD 
+ box_name: EWM_U_WM_B_W_CIF_RIMODINI
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_W_CIF_RIMODINI
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-4373/start initial supply for integration models"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_Z_RBDAPP01_EWM ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_RBDAPP01_EWM   job_type: BOX 
+owner: ld874p1@akrhp080
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,30
+description: "2011-8920/transmit the meter number for the site to the FedEx Central Server"
+alarm_if_fail: 1
+
+
+ /* ----------------- EWM_U_WM_C_Z_RBDAPP01_EWM ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RBDAPP01_EWM   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_RBDAPP01_EWM
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_RBDAPP01_EWM START=C -y 55
+ machine: akrhp021
+ owner: ld874p1@akrhp080
+ permission: wx,we
+ date_conditions: 0
+ condition: v(devsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-8920/transmit the meter number for the site to the FedEx Central Server"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.common.au2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_Z_RBDAPP01_ERP ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_RBDAPP01_ERP   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,30
+description: "2011-6488/transmit the meter number for the site to the FedEx Central Server"
+alarm_if_fail: 1
+
+
+ /* ----------------- EWM_U_WM_C_Z_RBDAPP01_ERP ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RBDAPP01_ERP   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_RBDAPP01_ERP
+ command: auto_r3 $DEBUG_TO_DEMON $DEBUG_TO_ERR -C $SAP_CON_STR JOB EWM_U_WM_C_Z_RBDAPP01_ERP
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(testsap_up) = "yes" & v(au2_up) = "yes"
+ description: "2011-6274/transmit the meter number for the site to the FedEx Central Server"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/nat/con/src/gy.common.au2.ac2"
+ svcdesk_attr: "group="NAUSAK_Autosys" NO_ACTION"
+
+
+/* ----------------- EWM_U_WM_B_D_CIF_RBDMANI2_EWM ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_CIF_RBDMANI2_EWM   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,15,30,45
+description: "2011-4373/reprocess EWM idocs"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_CIF_RBDMANI2_EWM ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_CIF_RBDMANI2_EWM   job_type: CMD 
+ box_name: EWM_U_WM_B_D_CIF_RBDMANI2_EWM
+ command: sapjob JOBNAME=EWM_U_WM_C_D_CIF_RBDMANI2_EWM START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "reprocess EWM idocs | RFC1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_CIF_RBDMANI2_EWM has failed in Test. Will restart job 1 time. If fails again, will make P2 for Business Support."
+ svcdesk_desc: "Changed to restart job 1 time. Turned alarm off and added OTC_Support as group, made priority 3."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_EDW_AGED_INV ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_EDW_AGED_INV   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_times: "06:00"
+description: "2016-1172 | Aged Inventory Reporting"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_EDW_AGED_INV ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_EDW_AGED_INV   job_type: CMD 
+ box_name: EWM_U_WM_B_D_EDW_AGED_INV
+ command: sapjob JOBNAME=EWM_U_WM_C_D_EDW_AGED_INV START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Aged Inventory Reporting | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_EDW_AGED_INV has failed in Test. Priority 3 ticket will automatically be generated for NAUSAK_NAT_OTC_Support after one restart."
+ svcdesk_desc: "Priority 3 ticket will automatically be generated for NAUSAK_NAT_OTC_Support."
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_LOAD_COMMON_OWNERS ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_LOAD_COMMON_OWNERS   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 0
+condition: s(EWM_U_WM_C_D_REGEN_IMEWM_CUS2)
+description: "2011-4373/transmit perfect order daya to EDW"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_LOAD_COMMON_OWNERS ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_LOAD_COMMON_OWNERS   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_LOAD_COMMON_OWNERS START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_LOAD_COMMON_OWNERS has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N699 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N699   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N699 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N637)
+ description: "Transmit perfect order data to DeKalb | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N699 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N602 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N602   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N602 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_LOAD_COMMON_OWNERS)
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N602 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N637 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N636)
+ description: "DeKalb WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N637 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N636 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N636   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N636 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N623)
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N636 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N623 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N623   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N623 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N602)
+ description: "Stockbridge WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N623 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N607 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N607   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N607 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N623)
+ description: "McDonough WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N607 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N6D3 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N6D3   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N6D3 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N699)
+ description: "Transmit perfect order data to Shelby Warehouse WP0 | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N6D3 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N65A ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N65A   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N65A START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N6D3)
+ description: "ITIA 2018-10986 | Transmit perfect order data to Rickenbacker Warehouse WP0"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N65A has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_COMMON_OWNERS_N65B ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_COMMON_OWNERS_N65B   job_type: CMD 
+ box_name: EWM_U_WM_B_D_LOAD_COMMON_OWNERS
+ command: sapjob JOBNAME=EWM_U_WM_C_D_COMMON_OWNERS_N65B START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_COMMON_OWNERS_N65A)
+ description: "ITIA 2019-15375 | Transmit perfect order data to N65B Warehouse WP0"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_COMMON_OWNERS_N65B has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_YMW_FEDEX_EOD ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_YMW_FEDEX_EOD   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_times: "12:00, 18:00"
+description: "2011-6111/transmit the meter number for the site to the FedEx Central Server"
+alarm_if_fail: 1
+
+
+ /* ----------------- EWM_U_WM_P_D_YMW_FEDEX_EOD ----------------- */ 
+
+ insert_job: EWM_U_WM_P_D_YMW_FEDEX_EOD   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_P_D_YMW_FEDEX_EOD START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2016-16356  2011-6111/transmit the meter number for the site to the FedEx Central Server"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_P_D_YMW_FEDEX_EOD has failed in Test."
+ svcdesk_attr: "group="NAUSAK_NAT_IT_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YMW_FEDEX_EOD_N699 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YMW_FEDEX_EOD_N699   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YMW_FEDEX_EOD_N699 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit the meter number for the site to the FedEx Central Server | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YMW_FEDEX_EOD_N699 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DF ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DF   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DF START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit the meter number for the site to the FedEx Central Server | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DF has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YMW_FEDEX_EOD_N602 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YMW_FEDEX_EOD_N602   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YMW_FEDEX_EOD_N602 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit the meter number for the site to the FedEx Central Server | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YMW_FEDEX_EOD_N602 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YMW_FEDEX_EOD_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YMW_FEDEX_EOD_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YMW_FEDEX_EOD_N637 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "DeKalb WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YMW_FEDEX_EOD_N637 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DE ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DE   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YMW_FEDEX_EOD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DE START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit the meter number for the site to the FedEx Central Server | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YMW_FEDEX_EOD_N6DE has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_YWM_DASHBOARD ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_YWM_DASHBOARD   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_times: "06:00"
+description: "ITIA 2018-6033, 2018-6018 | RFC 1115352 |RFC 1115631"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_DASHBOARD ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_DASHBOARD   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_DASHBOARD
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_DASHBOARD START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2018-6018"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_DASHBOARD has failed in Test. Phonefile can be found here notes://AHQNA401/8525686c00645956/70a0fc5005510cc085256869005b8369/d68b7ba273dd6bfd8525828e00535440"
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_YWM_EDW_DATA ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_YWM_EDW_DATA   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_times: "08:50"
+description: "2011-6342/transmit perfect order daya to EDW"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N699)
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N699 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N699   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N699 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N602)
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N699 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N602 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N602   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N602 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Transmit perfect order data to EDW | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N602 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N637 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA)
+ description: "DeKalb WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N637 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N636 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N636   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N636 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N637)
+ description: "EDW WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N636 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N623 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N623   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N623 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N636)
+ description: "Stockbridge WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N623 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N607 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N607   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N607 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N623)
+ description: "McDonough WP0 Go Live | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N607 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N6D3 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N6D3   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N6D3 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N699)
+ description: "Transmit perfect order data to Shelby Warehouse WP0 | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N6D3 has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N65A ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N65A   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N65A START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N6D3)
+ description: "ITIA 2018-10986 | Transmit perfect order data to Rickenbacker Warehouse WP0"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N65A has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_EDW_DATA_N65B ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_EDW_DATA_N65B   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_EDW_DATA
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_EDW_DATA_N65B START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_D_YWM_EDW_DATA_N607)
+ description: "ITIA 2019-15375 | Transmit perfect order data to EDW"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_EDW_DATA_N65B has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_YWM_SHIP_MON ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_YWM_SHIP_MON   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_times: "00:00, 04:00, 08:00, 12:00, 16:00, 20:00"
+description: "2012-1831/Sends all inbound shipment data from EWM to TMS database"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_SHIP_MON ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_SHIP_MON   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_SHIP_MON
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_SHIP_MON START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2016-16356  /Sends all inbound shipment data from EWM to TMS database"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_SHIP_MON has failed in Test."
+ svcdesk_attr: "group="NAUSAK_NAT_IT_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_D_YWM_TRANSIT_REPORT ----------------- */ 
+
+insert_job: EWM_U_WM_B_D_YWM_TRANSIT_REPORT   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_times: "08:00, 12:00, 15:00, 16:00"
+description: "2013-12534 /Sends all inbound shipment data from EWM to TMS database"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_D_YWM_TRANSIT_REPORT ----------------- */ 
+
+ insert_job: EWM_U_WM_C_D_YWM_TRANSIT_REPORT   job_type: CMD 
+ box_name: EWM_U_WM_B_D_YWM_TRANSIT_REPORT
+ command: sapjob JOBNAME=EWM_U_WM_C_D_YWM_TRANSIT_REPORT START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Sends all inbound shipment data from EWM to TMS database | RFC 1113351"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_D_YWM_TRANSIT_REPORT has failed in Test."
+ svcdesk_desc: "Job EWM_U_WM_C_D_YWM_TRANSIT_REPORT has failed in Test."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_W_ALERTDEL ----------------- */ 
+
+insert_job: EWM_U_WM_B_W_ALERTDEL   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su
+start_times: "05:00"
+description: "2012-9922/ Delete EWM alerts older than 7 days old"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_W_ALERTDEL ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ALERTDEL   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ALERTDEL
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ALERTDEL START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Delete EWM alerts older than 7 days old | RFC 1111211"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ALERTDEL has failed in Test. Going to restart job one time, creating a P3 ticket for OTC_Support. If fails again, will create a P2 ticket."
+ svcdesk_desc: "Job EWM_U_WM_C_W_ALERTDEL has failed in Test. Will restart job one time, creating a P3 ticket for OTC_Support. If fails again, will create a P2 ticket. Operations alarm set to false."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_W_ZRECALCULATE ----------------- */ 
+
+insert_job: EWM_U_WM_B_W_ZRECALCULATE   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su
+start_times: "05:00"
+description: "2012-66805/Job to Recalculate Bin Capacity"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Job to Recalculate Bin Capacity | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE has failed in Test. Will restart job one time. Priority is set at 3."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq_asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_RECALCULATE_N699 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_RECALCULATE_N699   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N699 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N637)
+ description: "Job to Recalculate Bin Capacity | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_RECALCULATE_N699 has failed in Test. Have generated a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N602 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N602   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N602 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE)
+ description: "Job to Recalculate Bin Capacity | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N602 has failed in Test. Will restart job once and then create a p3 ticket for business support."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N637 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N636)
+ description: "DeKalb WP0 Go Live | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N637 has failed in Test. Will restart job once then create a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N636 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N636   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N636 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N623)
+ description: "DeKalb WP0 Go Live | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N636 has failed in Test. Will restart job once then create a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N623 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N623   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N623 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N602)
+ description: "Stockbridge WP0 Go Live | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N623 has failed in Test. Will restart once then create a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N607 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N607   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N607 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_RECALCULATE_N699)
+ description: "McDonough WP0 Go Live | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N607 has failed in Test. Will restart job once upon failure and then create a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N6D3 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N6D3   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N6D3 START=C -y 57
+ machine: akrhp021
+ owner: ld874p1
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N607)
+ description: "Shelby Warehouse WP0 Go Live | RFC 1111576"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N6D3 has failed in Test. Will restart job once then create a p3 ticket for business support team."
+ service_desk: 1
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N65A ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N65A   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N65A START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N6D3)
+ description: "ITIA 2018-10986 | Rickenbacker Warehouse WP0 Go Live"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N65A has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_W_ZRECALCULATE_N65B ----------------- */ 
+
+ insert_job: EWM_U_WM_C_W_ZRECALCULATE_N65B   job_type: CMD 
+ box_name: EWM_U_WM_B_W_ZRECALCULATE
+ command: sapjob JOBNAME=EWM_U_WM_C_W_ZRECALCULATE_N65B START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes" & s(EWM_U_WM_C_W_ZRECALCULATE_N65A)
+ description: "ITIA 2019-15375 | N65B Warehouse WP0 Go Live"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_W_ZRECALCULATE_N65B has failed in Test."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_CIF_RFC_ERR_EWM ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_CIF_RFC_ERR_EWM   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,5,10,15,20,25,30,35,40,45,50,55
+description: "2011-4373/Reprocess Failed SM58, SMQ1, and SMQ2 errors in EWM"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSARFCEX_EWM ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSARFCEX_EWM   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_EWM
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_RSARFCEX_EWM START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Reprocess Failed SM58, SMQ1, and SMQ2 errors in EWM | RFC 1112563"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 5
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_RSARFCEX_EWM has failed or maxrun. Operations is to monitor for a second failure within 75 minutes. ."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSQIWKEX_EWM ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSQIWKEX_EWM   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_EWM
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_RSQIWKEX_EWM START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Reprocess Failed SM58, SMQ1, and SMQ2 errors in EWM | RFC 1111211 |RFC 1112563"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 5
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_RSQIWKEX_EWM has failed in Test.  This is just an FYI."
+ svcdesk_desc: "Operations has instructions on what to do when this job fails or has max run alarm."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSQOWKEX_EWM ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSQOWKEX_EWM   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_CIF_RFC_ERR_EWM
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_RSQOWKEX_EWM START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "Reprocess Failed SM58, SMQ1, and SMQ2 errors in EWM|RFC 1108933 | RFC 1112563"
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 5
+ alarm_if_fail: 1
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_RSQOWKEX_EWM has failed in Test.  Operations instructions in Phone File."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="GLOBAL_SNO_L1""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_Cancel_WT_SAIL_N637 ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_Cancel_WT_SAIL_N637   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_mins: 0,15,30,45
+description: "ITIA 2019-6160"
+alarm_if_fail: 0
+application: ap0
+
+
+ /* ----------------- EWM_U_WM_C_Z_Cancel_WT_SAIL_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_Cancel_WT_SAIL_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_Cancel_WT_SAIL_N637
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_Cancel_WT_SAIL_N637 START=C -d WP0
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2019-6160"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.gy.common.wu0"
+ application: ap0
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_Cancel_WT_SAIL_N637 has failed in Test. Upon job failure, job will automatically force start one time. If job fails again, a p2 ticket will be created for business support."
+ svcdesk_desc: "First Failure:1) Immediately Force Start the Job.  See additional information on phone file."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.nat.it.coe.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_Open_WT_SAIL_N637 ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_Open_WT_SAIL_N637   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_mins: 0,15,30,45
+description: "ITIA 2019-6160"
+alarm_if_fail: 0
+application: ap0
+
+
+ /* ----------------- EWM_U_WM_C_Z_Open_WT_SAIL_N637 ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_Open_WT_SAIL_N637   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_Open_WT_SAIL_N637
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_Open_WT_SAIL_N637 START=C -d WP0
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2019-6160"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ max_run_alarm: 60
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.gy.common.wu0"
+ application: ap0
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_Open_WT_SAIL_N637 has failed in Test. Upon job failure, job will automatically force start one time. If job fails again, a p2 ticket will be created for business support."
+ svcdesk_desc: "First Failure:1) Immediately Force Start the Job.  See additional information on phone file."
+ svcdesk_pri: 2
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.nat.it.coe.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_REPLENISHMENT ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_REPLENISHMENT   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: all
+start_mins: 0,15,30,45
+description: "ITIA 2018-6542"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_REPLENISHMENT_FIXD ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_REPLENISHMENT_FIXD   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_REPLENISHMENT
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_REPLENISHMENT_FIXD START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2018-6542 |RFC 1115352"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_REPLENISHMENT_FIXD has failed in production. Phone file entry can be found here notes://AHQNA401/8525686c00645956/49f85bf232c7bcee85256869005b8e1c/b19b8d233ddfa971852582980045320b"
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.sales.order@goodyear.com
+
+
+ /* ----------------- EWM_U_WM_C_Z_REPLENISHMENT_RFIX ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_REPLENISHMENT_RFIX   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_REPLENISHMENT
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_REPLENISHMENT_RFIX START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "ITIA 2018-6542 |RFC 1115352"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/scm/con/src/gy.gy.common.wu0"
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_REPLENISHMENT_RFIX has failed in production. Phone file entry can be found here notes://AHQNA401/8525686c00645956/49f85bf232c7bcee85256869005b8e1c/b19b8d233ddfa971852582980045320b"
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com
+
+
+/* ----------------- EWM_U_WM_B_Z_RSPPFPROCESS ----------------- */ 
+
+insert_job: EWM_U_WM_B_Z_RSPPFPROCESS   job_type: BOX 
+owner: ld874p1@akrsgpas
+permission: wx,we
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_times: "00:25, 04:25, 08:25, 12:25, 16:25, 20:25"
+description: "PPF processes | RFC 1111576 | RFC 1118355"
+alarm_if_fail: 0
+
+
+ /* ----------------- EWM_U_WM_C_Z_RSPPFPROCESS ----------------- */ 
+
+ insert_job: EWM_U_WM_C_Z_RSPPFPROCESS   job_type: CMD 
+ box_name: EWM_U_WM_B_Z_RSPPFPROCESS
+ command: sapjob JOBNAME=EWM_U_WM_C_Z_RSPPFPROCESS START=C -y 57
+ machine: akrhp021
+ owner: ld874p1@akrsgpas
+ permission: wx,we
+ date_conditions: 0
+ condition: v(prodsap_up) = "yes" & v(wu0_up) = "yes"
+ description: "PPF processes | RFC 1111211 | RFC 1118355"
+ n_retrys: 1
+ std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+ std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+ alarm_if_fail: 0
+ profile: "/usr/nat/con/src/gy.gy.common.wu0"
+ application: ap0
+ send_notification: F
+ notification_msg: "Job EWM_U_WM_C_Z_RSPPFPROCESS has failed in Test. On job failure, job will force start one time. If job fails again, an automatic p3 ticket will be created for business support."
+ service_desk: 1
+ svcdesk_desc: "Job EWM_U_WM_C_Z_RSPPFPROCESS has failed in Test. On job failure, job will force start one time. If job fails again, an automatic p3 ticket will be created for business support."
+ svcdesk_pri: 3
+ svcdesk_attr: "group="NAUSAK_NAT_OTC_Support""
+ notification_emailaddress: ahq.asa.business.support@goodyear.com

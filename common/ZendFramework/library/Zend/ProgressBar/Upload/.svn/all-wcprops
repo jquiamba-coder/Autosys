@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload
+END
+UploadProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload/UploadProgress.php
+END
+UploadHandlerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload/UploadHandlerInterface.php
+END
+AbstractUploadHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload/AbstractUploadHandler.php
+END
+ApcProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload/ApcProgress.php
+END
+SessionProgress.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/ProgressBar/Upload/SessionProgress.php
+END

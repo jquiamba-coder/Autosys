@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/Mysql/Ddl
+END
+CreateTableDecorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/Mysql/Ddl/CreateTableDecorator.php
+END
+AlterTableDecorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/NIDB/!svn/ver/1714/common/ZendFramework/library/Zend/Db/Sql/Platform/Mysql/Ddl/AlterTableDecorator.php
+END
