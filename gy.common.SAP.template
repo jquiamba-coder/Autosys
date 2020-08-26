@@ -1,0 +1,147 @@
+#############################################################################################
+# Filename:  /usr/nat/con/src/gy.common.40
+# This file exports all the necessary environment variables for an Autosys job to run
+# It overrides some things set in /etc/auto.profile and sets the other things
+#
+# CHANGE HISTORY:
+#       05/28/03        Stephanie Heitz         New file.....
+#
+#############################################################################################
+#AUTOSYS=/opt/CA/UnicenterAutoSysJM/autosys ;export AUTOSYS
+#AUTOUSER=/opt/CA/UnicenterAutoSysJM/autouser ;export AUTOSYS
+#CAIGLBL0000=$AUTOSYS ;export CAIGLBL0000
+. /etc/auto.profile
+
+#--------------------------------------------------------------------------------------------
+# Shorten the Autosys jobname to be used later
+#--------------------------------------------------------------------------------------------
+GY_SHORT_JOB_NAME=`echo $AUTO_JOB_NAME | awk 'BEGIN{FS="_"}{printf "%s",$4;}'`;export GY_SHORT_JOB_NAME
+
+
+#--------------------------------------------------------------------------------------------
+# set up pathing information first, we set only one absolute path and
+# then build all others around the absolute path. This will force all environments
+# to have the same structure only the base will change
+# only the three variables need to be changed in order to affect all pathing.
+# all other paths are derived from these 3 variables
+#--------------------------------------------------------------------------------------------
+GY_BASE_DIR=/var;export GY_BASE_DIR
+GY_BU_DIR=nat;export GY_BU_DIR
+GY_ENV_DIR=con;export GY_ENV_DIR
+
+GY_EDI=edi;export GY_EDI
+GY_INT=int;export GY_INT
+
+
+GY_INT_LOG_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/applog;export GY_INT_LOG_DIR
+GY_INT_STAGE_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/staging;export GY_INT_STAGE_DIR
+GY_INT_WORK_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/working;export GY_INT_WORK_DIR
+GY_INT_INBOX_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/inbox;export GY_INT_INBOX_DIR
+GY_INT_INBOXQ_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/inboxq;export GY_INT_INBOXQ_DIR
+GY_INT_OUTBOX_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/outbox;export GY_INT_OUTBOX_DIR
+GY_INT_OUTBOXQ_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/outboxq;export GY_INT_OUTBOXQ_DIR
+GY_INT_ARCH_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/archive;export GY_INT_ARCH_DIR
+GY_INT_ARCHTP_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/archivetape;export GY_INT_ARCHTP_DIR
+GY_INT_SUSP_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_INT/suspense;export GY_INT_SUSP_DIR
+
+GY_EDI_LOG_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/applog;export GY_EDI_LOG_DIR
+GY_EDI_STAGE_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/staging;export GY_EDI_STAGE_DIR
+GY_EDI_WORK_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/working;export GY_EDI_WORK_DIR
+GY_EDI_INBOX_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/inbox;export GY_EDI_INBOX_DIR
+GY_EDI_INBOXQ_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/inboxq;export GY_EDI_INBOXQ_DIR
+GY_EDI_OUTBOX_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/outbox;export GY_EDI_OUTBOX_DIR
+GY_EDI_OUTBOXQ_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/outboxq;export GY_EDI_OUTBOXQ_DIR
+GY_EDI_ARCH_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/archive;export GY_EDI_ARCH_DIR
+GY_EDI_ARCHTP_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/archivetape;export GY_EDI_ARCHTP_DIR
+GY_EDI_SUSP_DIR=$GY_BASE_DIR/$GY_BU_DIR/$GY_ENV_DIR/$GY_EDI/suspense;export GY_EDI_SUSP_DIR
+
+GY_BIN_DIR=/usr/$GY_BU_DIR/$GY_ENV_DIR/bin;export GY_BIN_DIR
+PATH="$PATH:.:$AUTOSYS/bin:/bin:/usr/bin:/usr/local/bin:$GY_BIN_DIR";export PATH
+
+#--------------------------------------------------------------------------------------------
+# Export Dazel environment
+#--------------------------------------------------------------------------------------------
+#. /opt/dazel/etc/setup_env.sh
+
+#--------------------------------------------------------------------------------------------
+# check for output directory, if not there create it
+#--------------------------------------------------------------------------------------------
+EDI_CHECK="_ED_";export EDI_CHECK
+
+if echo "$AUTO_JOB_NAME" | grep $EDI_CHECK > /dev/null
+
+then
+	GY_LOG_DIR=$GY_EDI_LOG_DIR;export GY_LOG_DIR
+else
+	GY_LOG_DIR=$GY_INT_LOG_DIR;export GY_LOG_DIR
+fi
+
+if [ -d  $GY_LOG_DIR/$AUTO_JOB_NAME ]; then
+	echo
+else
+	mkdir $GY_LOG_DIR/$AUTO_JOB_NAME
+fi
+
+#--------------------------------------------------------------------------------------------
+# Debugging switches
+# set debug to stderr on if file exists in output directory
+# a simple 'touch' of the file will suffice
+#--------------------------------------------------------------------------------------------
+if [ -f $GY_LOG_DIR/$AUTO_JOB_NAME/debug_to_err ];
+then
+	DEBUG_TO_ERR="-D";export DEBUG_TO_ERR
+else
+	DEBUG_TO_ERR="-D";export DEBUG_TO_ERR
+fi
+
+#--------------------------------------------------------------------------------------------
+# set flag to send debug info to the event_demon log
+# a simple 'touch' of the file will suffice
+#--------------------------------------------------------------------------------------------
+if [ -f $GY_LOG_DIR/$AUTO_JOB_NAME/debug_to_demon ];
+then
+	DEBUG_TO_DEMON="-L";export DEBUG_TO_DEMON
+else
+	DEBUG_TO_DEMON="";export DEBUG_TO_DEMON
+fi
+
+#--------------------------------------------------------------------------------------------
+# SAP connect string variables
+# Separated into instance and client components for some reason
+# Can be overriden by existence of sap_conn_override file in output directory
+# The contents of the file are used to set instance and client
+#--------------------------------------------------------------------------------------------
+SAP_INSTANCE=ut4;export SAP_INSTANCE
+SAP_CLIENT=060;export SAP_CLIENT
+# New adapter setting used with sapjob=JOBNAME
+ SAPDIR="/opt/CA/UnicenterJMAforSAP/sap/bin"; export SAPDIR
+ PATH="$PATH:$SAPDIR"
+# Old adapter setting used with auto_r3
+#SAPDIR=/opt/CA/UnicenterJMAforSAP/sap; export SAPDIR
+#PATH=$PATH:/opt/CA/UnicenterJMAforSAP/sap/bin
+#PATH="$SAPDIR/bin:$PATH" ; export PATH
+
+if [ -f $GY_LOG_DIR/$AUTO_JOB_NAME/sap_conn_override ]
+then
+	SAP_CON_STR=`cat $GY_LOG_DIR/$AUTO_JOB_NAME/sap_conn_override`;export SAP_CON_STR
+else
+	SAP_CON_STR="$SAP_INSTANCE"_"$SAP_CLIENT";export SAP_CON_STR
+fi
+
+#--------------------------------------------------------------------------------------------
+# Here we change to the output directory so the logs will be dropped in
+# the correct location
+#--------------------------------------------------------------------------------------------
+cd $GY_LOG_DIR/$AUTO_JOB_NAME
+
+##-- 
+##-- Set variable for JIL std_out and std_err
+##-- 
+GY_LOG_DIR_FULL=$GY_LOG_DIR/$AUTO_JOB_NAME;export GY_LOG_DIR_FULL
+
+
+#--------------------------------------------------------------------------------------------
+# Here we export a variable that is used in all the cleanup scripts
+#--------------------------------------------------------------------------------------------
+DAYS_OLD=7;export DAYS_OLD
+echo $SAP_CON_STR;
