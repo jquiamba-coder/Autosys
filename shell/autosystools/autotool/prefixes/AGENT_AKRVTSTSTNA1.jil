@@ -1,0 +1,33 @@
+
+
+/* ----------------- ADM_C_IA_B_P_AGENT_TEST ----------------- */ 
+
+insert_job: ADM_C_IA_B_P_AGENT_TEST   job_type: BOX 
+owner: ld874p1@na
+permission: mx,me
+date_conditions: 1
+days_of_week: su,mo,tu,we,th,fr,sa
+start_mins: 05,20,35,50
+description: "Box for test jobs"
+n_retrys: 2
+alarm_if_fail: 0
+
+
+ /* ----------------- ADM_C_IA_C_P_AGENT_AKRVTSTSTNA1 ----------------- */ 
+
+ insert_job: ADM_C_IA_C_P_AGENT_AKRVTSTSTNA1   job_type: CMD 
+ box_name: ADM_C_IA_B_P_AGENT_TEST
+ command: D\:\Autosys\datetime.bat
+ machine: akrvtststna1
+ owner: ld874p1@na
+ permission: mx,me
+ date_conditions: 0
+ description: "Test commands  d:\\Autosys\\%AUTO_JOB_NAME%-%AUTORUN%.out"
+ box_terminator: 1
+ std_out_file: "d:\temp\%AUTO_JOB_NAME%.out"
+ std_err_file: "d:\temp\%AUTO_JOB_NAME%.err"
+ alarm_if_fail: 0
+ send_notification: 0
+ notification_msg: "ADM_C_IA_C_P_AGENT_AKRVTSTSTNA1 has failed in production"
+ svcdesk_attr: "group="NAUSAK_Autosys_NoAction" NO_ACTION"
+ notification_emailaddress: ahq.autosys.administrators@goodyear.com

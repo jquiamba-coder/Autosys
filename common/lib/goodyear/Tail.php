@@ -15,7 +15,7 @@ class Tail {
     $this->filename = $filename;
     $stored_pos=FALSE;
     if ($status_file!='') {
-      $this->status_file=$status_file;
+      self::$status_file=$status_file;
       $status_contents=file_get_contents($status_file);
       if (!($status_contents===FALSE)) {
         $stored_last_pos=(integer)trim($status_contents);
@@ -25,37 +25,37 @@ class Tail {
     $file_length=filesize($filename);
     if ($stored_pos) {
       if ($stored_pos>$file_length) {
-        $this->last_pos=0;
+        self::$last_pos=0;
       } else {
-        $this->last_pos=$stored_last_pos;
+        self::$last_pos=$stored_last_pos;
       }
     } else {
       if ($start_read_eof) {
-        $this->last_pos=$file_length;
+        self::$last_pos=$file_length;
       } else {
-        $this->last_pos=0;
+        self::$last_pos=0;
       }
     }  
   }
  
   public function getpos() {
-    return($this->last_pos);
+    return(self::$last_pos);
   }
 
   public function getline() {
     while (TRUE) {
       clearstatcache(FALSE, $this->filename);
       $file_length = filesize($this->filename);
-      if ($file_length < $this->last_pos) { //file deleted or reset
-        $this->last_pos=0;
-      } elseif ($file_length > $this->last_pos) {  // something more to read
+      if ($file_length < self::$last_pos) { //file deleted or reset
+        self::$last_pos=0;
+      } elseif ($file_length > self::$last_pos) {  // something more to read
         $f = fopen($this->filename, "rb");
         if ($f === FALSE) die();
-        fseek($f, $this->last_pos);
+        fseek($f, self::$last_pos);
         while (!feof($f)) {
           $line = fgets($f,4096);
-	  $this->last_pos=ftell($f);
-          file_put_contents($this->status_file,$this->last_pos);
+	  self::$last_pos=ftell($f);
+          file_put_contents(self::$status_file,self::$last_pos);
 	  fclose($f);
           return ($line);
         }

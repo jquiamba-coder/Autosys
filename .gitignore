@@ -1,4 +1,23 @@
+
+backup
+data
 logs
 status
+
 lost+found
+*/.svn
+
+# assume this is including all the scripts in autotool while ignoring the data?
+#!shell/autosystools/**/
+#!shell/autosystools/*.sh
+#!shell/autosystools/prefixes/*
+#!shell/autosystools/whitelist/*
+
+
+
+#shell/playground/*
+
+#!*.sh
+#!README*
+#!readme*
 
