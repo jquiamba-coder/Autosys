@@ -1,5 +1,8 @@
 #!/bin/bash
-toolversion="v1.1.18"
+toolversion="v1.1.21"
+#v1.1.21 - Added a function that will terminate the jobs or force them to success
+#v1.1.20 - Added a function that will output standard, extended calendars and cycles definition
+#v1.1.19 - Added a function that will grep all job prefixes from the autorepall.txt
 #v1.1.18 - Added a function that will Autorep all job summary report and a function to autorep job status of specific jobs from jobs_list in the import directory
 #v1.1.17 - Added function to count  Whitelisted Jobs that did not run for two years or more in the Jobs Prefix 730 days count
 
@@ -47,12 +50,162 @@ toolversion="v1.1.18"
 #A tool to help with automating Autosy tasks.
 
 #This was written to be modular. Just add your script
-# as a new function and add it to the slection list.
+# as a new function and add it to the selection list.
 
 #=====================
 #Initilize functions
 #=====================
 #=====================
+#script to force specific jobs to success from /import/jobs_list
+sendeventsuccess()
+{
+if [ -f ./import/jobs_list ]
+then
+	clear
+        echo Careful! Please make sure you make a fresh list of jobs in the file ./import/jobs_list
+        sleep 4
+        echo Are you sure you want to proceed?
+        echo "1.) Yes"
+        echo "2.) No"
+        read successjobconfirm
+        if [ $successjobconfirm = y ] || [ $successjobconfirm = Y ] || [ $successjobconfirm = 1 ]
+	then
+	clear
+        echo Please wait... This can take a while.
+        sleep 2
+        echo
+        echo Forcing jobs to Success state
+        echo
+        cat ./import/jobs_list | while read line
+        do
+                jobname="$line"
+		sendevent -E CHANGE_STATUS -J $jobname -s SUCCESS >>./export/forced_success_jobs.txt
+                echo $line forced to Success
+        done
+        echo
+        echo All jobs have been forced to Success. Returning to main menu.
+        sleep 2
+	elif [ $successjobconfirm = n ] || [ $successjobconfirm = N ] || [ $successjobconfirm = 2 ]
+        then
+        main
+        else
+        echo Error: Please make a valid selection!!!
+        sleep 2
+        sendeventsuccess
+	fi
+else
+        clear
+        echo jobs_list DOES NOT EXIST! Please place jobs_list in ./import!
+        echo Press enter to continue.
+        read
+        main
+fi
+}
+
+#script to terminate specific jobs from /import/jobs_list
+sendeventterminate()
+{
+	
+if [ -f ./import/jobs_list ]
+then
+	clear
+	echo Careful! Please make sure you make a fresh list of jobs in the file ./import/jobs_list
+	sleep 4
+	echo Are you sure you want to proceed?
+        echo "1.) Yes"
+        echo "2.) No"
+	read terminatejobconfirm
+	if [ $terminatejobconfirm = y ] || [ $terminatejobconfirm = Y ] || [ $terminatejobconfirm = 1 ]
+	then
+        clear
+        echo Please wait... This can take a while.
+        sleep 2
+        echo
+        echo Terminating Jobs
+        echo
+        cat ./import/jobs_list | while read line
+        do
+                jobname="$line"
+                sendevent -E CHANGE_STATUS -J $jobname -s TERMINATED >>./export/terminated_jobs.txt
+                echo $line termination successful
+        done
+        echo
+        echo Job Termination Complete. Returning to main menu
+        sleep 2
+	elif [ $terminatejobconfirm = n ] || [ $terminatejobconfirm = N ] || [ $terminatejobconfirm = 2 ]
+        then
+        main
+        else
+        echo Error: Please make a valid selection!!!
+        sleep 2
+        sendeventterminate
+	fi
+else
+        clear
+        echo jobs_list DOES NOT EXIST! Please place jobs_list in ./import!
+        echo Press enter to continue.
+        read
+        main
+fi
+}
+
+#script to get all standard, extended calendars and cycles definitions
+caldefreport()
+{
+extcal=./export/export_filename_s.txt
+stdcal=./export/export_filename_e.txt
+cycdef=./export/export_filename_c.txt
+clear
+echo "1.)Get all Standard Calendar definitions"
+echo "2.)Get all Extended Calendar definitions"
+echo "3.)Get all Cycles definitions"
+echo "0.)Back"
+read caldef
+if [ $caldef = 1 ]
+then
+        autocal_asc -s ALL -E $stdcal
+        echo "Loading Standard Calendar definitions... Please Wait..."
+        sleep 10
+	echo "Done... Returning to main selections"
+elif [ $caldef = 2 ]
+then
+        autocal_asc -e ALL -E $extcal
+        echo "Loading Extended Calendar definitions... Please Wait..."
+        sleep 10
+	echo "Done... Returning to main selections"
+elif [ $caldef = 3 ]
+then
+        autocal_asc -c ALL -E $cycdef
+        echo "Loading Cycles definitions... Please Wait..."
+        sleep 10
+	echo "Done... Returning to main selections"
+elif [ $caldef = 0 ] || [ $caldef = b ] || [ $caldef = B ]
+then
+        main
+else
+echo Please make a valid choice!
+sleep 2
+caldefreport
+fi
+}
+
+#script to get all prefixes
+prefixreport()
+{
+jobprefix=./prefixes/jobprefixes.txt
+jobsjil=./export/autorepall.txt
+echo "Loading JIL Backup"
+echo "Please wait..."
+sleep 2
+echo "..."
+
+cat $jobsjil | grep "insert_job: " | awk '{print$2}' | cut -c1-3 | sort -u > $jobprefix
+echo "Loading Job Prefixes to path: /opt/cascripts/shell/autosystools/autotool/prefixes/jobprefixes.txt"
+sleep 2
+echo "Done....Redirecting to the main selection menu"
+sleep 2
+}
+
 #script to get job status report
 jobstatreport()
 {
@@ -123,6 +276,48 @@ then
         echo "Importing Job Exit Codes"
         echo "Please wait..."
         fi
+
+elif [ $jobstat = 4 ]
+then
+        clear
+        echo Please wait... This can take a while.
+        greptherep()
+        {
+        var="1"
+        for (( i = 0; i <= $2; i++ ))
+        do
+        var="`date -d "-$i days" +%m/%d/%Y`|"
+        var2="$var2$var"
+        done
+
+        grep -Ev "`date +%m/%d/%Y`|$var2`date -d "-$2 days" +%m/%d/%Y`" ./export/autorepall.txt >./export/autorepalltrimmed.txt
+
+#===========================================================================================
+#The below looks if there is a argument with -z, and if there is it runs the following greps
+#===========================================================================================
+        grep "$3" ./export/autorepalltrimmed.txt>./export/autorepallinorder.txt
+        [ ! -z "$4" ] && grep "$4" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+        [ ! -z "$5" ] && grep "$5" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+        [ ! -z "$6" ] && grep "$6" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+        [ ! -z "$7" ] && grep "$7" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+        [ ! -z "$8" ] && grep "$8" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+        [ ! -z "$9" ] && grep "$9" ./export/autorepalltrimmed.txt>>./export/autorepallinorder.txt
+
+        cat ./export/autorepallinorder.txt 2>&1| mail -s "Inactive jobs for $3 $4 $5 $6 $7 $8 $9" $1
+        rm ./export/autorepalltrimmed.txt
+        rm ./export/autorepallinorder.txt
+        echo Done....
+}
+#=========================================================
+#This script uses arguments to allow the user of the same
+#script to pull different jobs for users via autosys jobs
+#and send them in a full batch to an address (arg1)
+#argument 1 = email address to send mail to
+#argument 2 = number of days back to omit
+#argument 3 - x = prefixes to set to grep.
+#=========================================================
+greptherep $1 $2 $3 $4 $5 $6 $7 $8 $9
+
 elif [ $jobstat = 0 ] || [ $jobstat = b ] || [ $jobstat = B ]
 then
         main
@@ -229,8 +424,8 @@ echo "How many days would you like to report?"
 read days_count
 clear
 #  Read in list of log files for the last 365 days
-#filelist=`find /opt/CA/WorkloadAutomationAE/autouser.PRD/archive -type f -mtime -65 | grep  event_demon.PRO` | while read line
-find /opt/CA/WorkloadAutomationAE/autouser.PRO/archive -type f -mtime -"$days_count" | grep event_demon.PRO.| while read line
+#filelist=`find /opt/CA/WorkloadAutomationAE/autouser.PRD/archive -type f -mtime -65 | grep  event_demon.PRD` | while read line
+find /opt/CA/WorkloadAutomationAE/autouser.PRD/archive -type f -mtime -"$days_count" | grep  event_demon.PRD | while read line
 
 # Loop through log files keeping only STARTJOBS for commands (no Boxes)
 do
@@ -358,11 +553,11 @@ do
 	var="`date -d "-$i days" +%m/%d/%Y`|"
 	var2="$var2$var"
 done
-grep -Ev "$var2`date -d "-$daysback days" +%m/%d/%Y`" ./export/autosys.jobstat.txt > ./export/HaventRanInAYear.txt
+grep -Ev "$var2`date -d "-$daysback days" +%m/%d/%Y`" ./export/autorepall.txt>./export/HaventRanInAYear.txt
 }
 
 #==============================================================
-#Pull a list of autosys jobs that haven't ran for 730 days
+#Pull a list of autossy jobs that haven't ran for 730 days
 #==============================================================
 inertjobs()
 {
@@ -381,15 +576,15 @@ then
 		# Variables for job stats
 		#========================
 		totaljobs=`cat ./export/autorepall.txt | wc -l`
-		sucessfuljobs=`grep -E " SU | SU/" ./export/autosys.jobstat.txt|wc -l`
-		failedjobs=`grep -E " FA | FA/" ./export/autosys.jobstat.txt |wc -l`	
-		onicejobs=`grep -E " OI | OI/" ./export/autosys.jobstat.txt | wc -l`
-		terminatedjobs=`grep -E " TE | TE/" ./export/autosys.jobstat.txt | wc -l`
-		onholdjobs=`grep -E " OH | OH/" ./export/autosys.jobstat.txt |wc -l`
-		inactivejobs=`grep -E " IN | IN/" ./export/autosys.jobstat.txt | wc -l`
+		sucessfuljobs=`grep -E " SU | SU/" ./export/autorepall.txt|wc -l`
+		failedjobs=`grep -E " FA | FA/" ./export/autorepall.txt |wc -l`	
+		onicejobs=`grep -E " OI | OI/" ./export/autorepall.txt | wc -l`
+		terminatedjobs=`grep -E " TE | TE/" ./export/autorepall.txt | wc -l`
+		onholdjobs=`grep -E " OH | OH/" ./export/autorepall.txt |wc -l`
+		inactivejobs=`grep -E " IN | IN/" ./export/autorepall.txt | wc -l`
 		onnoexec=`grep "/NE" ./export/autorepall.txt | wc -l`
 		runningjobs=`grep -E " RU | RU/" ./export/autorepall.txt | wc -l`
-		noactionflagset=`grep "svcdesk_attr: .group=.*. NO_ACTION." ./export/autorepall.txt | wc -l`
+		noactionflagset=`grep "svcdesk_attr: .group=.*. NO_ACTION." $AUTOUSER/autosys.jobs.jil | wc -l`
 		greptherep
 		clear
 		echo "Total Jobs                            $totaljobs"
@@ -422,7 +617,7 @@ then
 		clear	
 		echo -----------------------------------------------------------------
 		echo -e "                                      Boxes  Commands  Total"
-		echo -e "Total insert jobs                      $totalinertboxes     $totalinertcommands     $totalinertjobs"
+		echo -e "Total inert jobs                      $totalinertboxes     $totalinertcommands     $totalinertjobs"
 		echo -e "Jobs that have never ran             $(tput smul)- $norunboxes$(tput sgr0)   $(tput smul)- $noruncommands$(tput sgr0)   $(tput smul)- $totalnorunjobs"$(tput sgr0)
 		echo -e "Jobs that haven't ran for two years    $(($totalinertboxes - $norunboxes))     $(($totalinertcommands - $noruncommands))     $(($totalinertjobs - $totalnorunjobs))"
 		echo -e "Total no. of whitelisted jobs is        $total_jobs"
@@ -640,6 +835,13 @@ echo "9.) Create .csv of all calendars and if they are used"
 echo "----------------------------------------------------------"
 echo Reports:
 echo "10.) Get Job Reports"
+echo "11.) Get Job Prefixes"
+echo "12.) Get Calendar Report"
+echo "----------------------------------------------------------"
+echo Job Sendevent: - Careful! Make sure you make a fresh list of jobs in the ./import/jobs_list directory before executing!
+echo "13.) Terminate Jobs"
+echo "14.) Force to Success"
+echo "----------------------------------------------------------"
 echo "0.) Quit"
 
 
@@ -666,9 +868,11 @@ then
 elif [ $selectionvar = 3 ]
 then
 	consolidatedboxjil
+
 elif [ $selectionvar = 4 ]
 then
 	consolidatedstatusjil
+
 elif [ $selectionvar = 5 ]
 then
 	inertjobs
@@ -693,6 +897,24 @@ elif [ $selectionvar = 10 ]
 then
         jobstatreport
 
+elif [ $selectionvar = 11 ]
+then
+	prefixreport	
+
+elif [ $selectionvar = 12 ]
+then
+	caldefreport
+
+elif [ $selectionvar = 13 ]
+then
+
+	sendeventterminate
+
+elif [ $selectionvar = 14 ]
+then
+
+        sendeventsuccess
+	
 else
 	echo "Error: Please select a proper option. "
 	sleep 2
