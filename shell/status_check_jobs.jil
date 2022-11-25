@@ -1,0 +1,325 @@
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_TLB_EAST_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_TLB_EAST_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_B_D_DDL_TLB_EAST"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-20980 | Check the status of NAT_P_SH_B_D_DDL_TLB_EAST|CHG0062081|CHG0065917"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Box NAT_P_SH_B_D_DDL_TLB_EAST is still running!"
+svcdesk_desc: "Box NAT_P_SH_B_D_DDL_TLB_EAST is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_TLB_CNTRL_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_TLB_CNTRL_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_B_D_DDL_TLB_CENTRAL"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-20980 | Check the status of NAT_P_SH_B_D_DDL_TLB_CENTRAL|CHG0062081|CHG0065917"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Box NAT_P_SH_B_D_DDL_TLB_CENTRAL is still running!"
+svcdesk_desc: "Box NAT_P_SH_B_D_DDL_TLB_CENTRAL is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_TLB_WEST_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_TLB_WEST_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_B_D_DDL_TLB_WEST"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-20980 | Check the status of NAT_P_SH_B_D_DDL_TLB_WEST|CHG0062081|CHG0065917"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Box NAT_P_SH_B_D_DDL_TLB_WEST is still running!"
+svcdesk_desc: "Box NAT_P_SH_B_D_DDL_TLB_WEST is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_TLB_ALL_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_TLB_ALL_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_B_D_DDL_TLB_ALL"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-20980 | Check the status of NAT_P_SH_B_D_DDL_TLB_ALL|CHG0062081|CHG0065917"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Box NAT_P_SH_B_D_DDL_TLB_ALL is still running!"
+svcdesk_desc: "Box NAT_P_SH_B_D_DDL_TLB_ALL is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N699_WTLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N699_WTLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N699_WTLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N699_WTLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N699_WTLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N699_WTLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N639_CTLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N639_CTLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N639_CTLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N639_CTLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N639_CTLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N639_CTLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N637_CTLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N637_CTLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N637_CTLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N637_CTLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N637_CTLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N637_CTLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N65B_CTLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N65B_CTLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N65B_CTLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N65B_CTLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N65B_CTLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N65B_CTLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N6D3_ETLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N6D3_ETLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N6D3_ETLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N6D3_ETLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N6D3_ETLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N6D3_ETLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N65C_ETLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N65C_ETLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N65C_ETLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N65C_ETLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N65C_ETLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N65C_ETLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N65A_ETLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N65A_ETLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N65A_ETLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N65A_ETLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N65A_ETLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N65A_ETLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N636_ETLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N636_ETLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N636_ETLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N636_ETLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N636_ETLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N636_ETLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
+
+
+/* ----------------- NAT_P_SH_C_D_DDL_N623_ETLB_CHECK ----------------- */ 
+
+insert_job: NAT_P_SH_C_D_DDL_N623_ETLB_CHECK   job_type: CMD 
+box_name: NAT_P_SH_B_D_DDL_TLB_CHECK
+command: "/var/autosys/prd/bin/status_check.sh NAT_P_SH_C_D_DDL_N623_ETLB"
+machine: localhost
+owner: ldautop
+permission: mx,me
+date_conditions: 0
+condition: v(ap0_up) = "yes"
+description: "ITIA 2022-35194, ITIA 2021-25335| Check the status of NAT_P_SH_C_D_DDL_N623_ETLB"
+std_out_file: "${GY_LOG_DIR_FULL}/$AUTORUN.out"
+std_err_file: "${GY_LOG_DIR_FULL}/$AUTORUN.err"
+alarm_if_fail: 1
+profile: "/var/autosys/prd/src/gy.common.local"
+alarm_if_terminated: 0
+application: ap0
+send_notification: F
+notification_msg: "Command NAT_P_SH_C_D_DDL_N623_ETLB_CHECK is still running!"
+svcdesk_desc: "Command NAT_P_SH_C_D_DDL_N623_ETLB_CHECK is still running!"
+svcdesk_pri: 2
+svcdesk_attr: "group="GLOBAL_SNO_L1""
+notification_emailaddress: ahq_truckload_build_alert@goodyear.com
