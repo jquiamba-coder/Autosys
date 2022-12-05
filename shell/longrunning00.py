@@ -40,8 +40,8 @@ with open("/opt/cascripts/shell/longrun_a.dat","r") as jobstat:
                         duration = str(duration).split(".")[0]
                         line = line.replace(string1_to_replace, duration)
                         line = line.replace(string2_to_replace, " ")
-                        #search for pattern of the run number that ends with "/1" and remove them
-                        pattern = re.sub(r"\d{7}\/\d", "", line)
+                        #search for regex pattern of the run number that ends with "/1" and remove them
+                        pattern = re.sub(r"[0-9]+\/\d", "", line)
                         # write the lines without the run number pattern
                         output_file.write(pattern)
                 #count running, on hold and on ice jobs, included in "if running jobs in line" loop
