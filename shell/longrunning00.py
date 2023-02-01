@@ -23,8 +23,8 @@ with open("/var/autosys/prd/int/working/longrun_a.dat","r") as jobstat:
 #create an output file runjob_output.txt
     with open(CompleteFilePath, "w") as output_file:
         #create headers for each columns
-        output_file.write("Job Name                                                         Start Date Time      Duration\n")
-        output_file.write("-------------------------------------------------------------------------------------------------------\n")
+        output_file.write("                                                                         Job Name                                                         Start Date/Time      Duration Days/Hours\n")
+        output_file.write("------------------------------------------------------------------------------------------------------------------------------------------\n")
         for line in jobstat:
             #search for lines with the string " RU " for running jobs
             if running_jobs in line:
@@ -66,12 +66,14 @@ with open(CompleteFilePath, "w") as outfile2:
             outfile2.write(line)
 
 #append the Total Counts
-with open(CompleteFilePath, "a+") as outfile3:
-    outfile3.seek(0)
-    outfile3.write("\n")
+with open(CompleteFilePath, "r+") as outfile3:
+    content = outfile3.read()
+    outfile3.seek(0, 0)
     #convert the total running , on hold and on ice jobs to a string
     outfile3.write("Total Running Jobs: " + str(ru_job_count))
     outfile3.write("\n")
     outfile3.write("Total On Hold Jobs: " + str(oh_job_count))
     outfile3.write("\n")
     outfile3.write("Total On Ice Jobs: " + str(oi_job_count))
+    outfile3.write("\n")
+    outfile3.write("\n")
