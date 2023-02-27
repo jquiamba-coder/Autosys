@@ -28,6 +28,8 @@ with open("/var/autosys/prd/int/working/longrun_a.dat","r") as jobstat:
         for line in jobstat:
             #search for lines with the string " RU " for running jobs
             if running_jobs in line:
+                #count running jobs
+                ru_job_count+=1
                 #search for lines with the datetime string value and put in a list and  convert them to datetime object
                 matches = list(datefinder.find_dates(line))
                 for date in matches:
@@ -37,22 +39,23 @@ with open("/var/autosys/prd/int/working/longrun_a.dat","r") as jobstat:
                     currentDate = datetime.now()
                     interval = "default"
                     duration = currentDate - date
-                    longrun_threshold = timedelta(days=4)
-                    if duration > longrun_threshold:
+                    if duration.days > 4:
                         #convert the duration to string then remove microseconds
                         duration = str(duration).split(".")[0]
                         line = line.replace(string1_to_replace, duration)
                         line = line.replace(string2_to_replace, " ")
                         #search for pattern of the run number that ends with "/1" and remove them
-                        pattern = re.sub(r"\d{7}/\d", "", line)
+                        pattern = re.sub(r"\d{8}/\d", "", line)
                         # write the lines without the run number pattern
                         output_file.write(pattern)
-                #count running, on hold and on ice jobs, included in "if running jobs in line" loop
-                ru_job_count+=1
-            #search for lines with the string " OH " for running jobs    
+                    else:
+                        print("No long running jobs")
+            else:
+                print("Not running: ",line)
+            #search for lines with the string " OH " for On Hold jobs and count   
             if on_hold_jobs in line:
                 oh_job_count+=1
-            #search for lines with the string " OI " for running jobs
+            #search for lines with the string " OI " for On Ice jobs and count
             if on_ice_jobs in line:
                 oi_job_count+=1
 
@@ -65,7 +68,7 @@ with open(CompleteFilePath, "w") as outfile2:
         if not line.startswith('NAT_P_'):
             outfile2.write(line)
 
-#append the Total Counts
+#append the Total Counts to the start of the file
 with open(CompleteFilePath, "r+") as outfile3:
     content = outfile3.read()
     outfile3.seek(0, 0)
