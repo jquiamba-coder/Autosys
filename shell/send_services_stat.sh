@@ -14,7 +14,7 @@ print EMAIL "From: autosys_noreply\@goodyear.com\n";
 print EMAIL "To: ahq.autosys.administrators\@goodyear.com\n";
 print EMAIL "Subject:   CA Services Status Report\n\n";
 print EMAIL "***************************************\n ";
-print EMAIL "Environment - Production\n";
+print EMAIL "Environment - Test\n";
 print EMAIL "Server - $HOST\n";
 print EMAIL "Script - $FILE\n";
 print EMAIL "Process - This script runs to check if Autosys Services are running\n\n";
