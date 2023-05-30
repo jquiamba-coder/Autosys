@@ -30,6 +30,9 @@ autorep -J ALL -q > autosys.jobs.jil
 # Backup of jobs status
 autorep -J ALL -s > autosys.jobstat.txt
 
+# Copy daily back up of autosys job status for the autopoller script to read
+cp autosys.jobstat.txt /opt/cascript/shell/autosystools/autotool/reports/autosys.jobstat.$(date -d "yesterday" +%Y-%m-%d).txt
+
 # Make a copy for the autotool
 cp -f autosys.jobs.jil /opt/cascripts/shell/autosystools/autotool/export/autorepall.txt
 cp -f autosys.jobstat.txt /opt/cascripts/shell/autosystools/autotool/export/
