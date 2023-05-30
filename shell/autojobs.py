@@ -1,16 +1,23 @@
 #!/bin/python3
 
+########################################
+# Script to read /opt/cascripts/shell/autosystools/autotool/export/autorepall.txt JIL file, 
+# extract relevant information about AutoSys jobs, types, and conditions, store the data in a dictionary,
+# and output it as both JSON and TSV files.
+########################################
+
+# Import modules
 import json
 import csv
 
-# File IO
+# Defines file paths for input and output files
 file_input = '/opt/cascripts/shell/autosystools/autotool/export/autorepall.txt'
 file_output_tsv = '/opt/cascripts/shell/autosystools/autotool/reports/autosys.jobs.jil.tsv'
 file_output_json = '/opt/cascripts/shell/autosystools/autotool/reports/autosys.jobs.jil.json'
 
+# Initializes some data structures
 # Dictionaries
 dict_job_data = dict()
-
 # Lists
 list_autosys_fields = []
 list_autosys_fields_custom = ['_name', '_type', '_ctypes', '_cc_and', '_cc_or', '_cc_lb']
@@ -18,10 +25,10 @@ list_autosys_types = []
 list_condition_types = []
 
 
-# Open Jil file
+# Open the JIL file in read mode
 data_jil = open(file_input, "r")
 
-# Counters
+# Initialize counters
 count_insert = 0
 count_job = 0
 count_box = 0
@@ -34,14 +41,14 @@ active_job = ''
 # Loop through Jil to Get Fields and types
 for line in data_jil:
 
-    # Split on Jil Delimiter
+    # Split on Jil Delimiter ':'
     if ': ' in line:
         line_split_field = line.split(': ')
         line_split_data = line.split(': ', 1)
         line_field = line_split_field[0].strip()
         line_data: str = line_split_data[1].strip()
 
-        # Get Condition Type
+        # Get Condition Type and Count
         if line_field == 'condition':
             list_condition_types = []
             count_condition_and = line_data.count('&')
@@ -77,6 +84,10 @@ for line in data_jil:
                 count_job += 1
 
         # Create Dictionary if not already exists
+        # Check if the current job (active_job) already exists in dict_job_data. If it exists, 
+        # create a new field in the dictionary with the field name as the key and the line data as the value. 
+        # If it doesn't exist, create a new dictionary entry with the job name as the key and 
+        # set the fields _name and _type to the job name and type, respectively.
         if active_job != '':
             if active_job in dict_job_data.keys():
                 # print(active_job)
@@ -90,10 +101,12 @@ for line in data_jil:
         list_autosys_fields.append(line_field)
 
 # AutoSys + Custom Fields
+# Convert list_autosys_fields and list_autosys_types into sets
 list_autosys_fields_unique = set(list_autosys_fields)
 list_autosys_types_unique = set(list_autosys_types)
 
 # Output Report
+# Print a summary of the AutoSys jobs and types, as well as the custom fields
 print(f"\n  AutoSys Insert: {count_insert}")
 print(f"   AutoSys Boxes: {count_box}")
 print(f"    AutoSys Jobs: {count_job}")
@@ -127,10 +140,11 @@ csv_writer = csv.writer(new_file_output_tsv)
 combined_fields = list_autosys_fields_custom
 combined_fields += list_autosys_fields_unique
 
+# Open the JSON output file and load the JSON data into the json_data variable.
 with open(file_output_json) as json_file:
     json_data = json.load(json_file)
 
-# create tab delimited file and print header
+# Create tab delimited file by writing the header row with the combined fields as column names.
 print("\nCreating CSV...")
 w = csv.DictWriter(new_file_output_tsv, fieldnames=combined_fields, delimiter='\t')
 w.writeheader()

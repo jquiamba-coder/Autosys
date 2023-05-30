@@ -1,16 +1,22 @@
 #!/bin/bash
 #
 ##################################
-# Scrpt to duplicate all daily jil's and scp them to
-# the backup server akrnetbkpna1 163.243.52.180
-# Updated 3/18/2022
+# This script automates the process of backing up various Autosys resources, including jobs, 
+# machines, monitoring and browser definitions, global variables, calendars, and email templates.
+# It organizes the backup files into a directory structure based on the current date and hostname,
+# compresses them into an archive, and then copies the archive to a backup server. 
+# Duplicate all daily jil's and scp them to the backup server akrnetbkpna1 163.243.52.180
+# Delete older backup files.
+# Updated 5/22/2023
 ##################################
 
 
-### Set variables ###
+# Set variables 
+# Capture date and destination path
 NOW=$(date +"%Y-%m-%d")
 BACKUP_DIR=/opt/cascripts/backup
 
+# Create new folder for the backups
 cd $BACKUP_DIR
 mkdir $NOW-$HOSTNAME
 cd $NOW-$HOSTNAME
