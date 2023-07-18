@@ -1,0 +1,71 @@
+import glob
+import shutil
+import os
+
+# Set the directory path
+directory_path = "/opt/CA/WorkloadAutomationAE/autouser.PRO/archive/"
+
+# Find the latest file in the directory
+latest_file_path = max(glob.glob(directory_path + "autotrack_dump *.log"), key=os.path.getctime)
+
+# Read the contents of the input file
+with open(latest_file_path, 'r') as input_file:
+    file_contents = input_file.read()
+
+# Extract the relevant sections
+header_start = "***************************************************************************"
+header_end = "***************************************************************************"
+header_start_index = file_contents.index(header_start)
+header_end_index = file_contents.index(header_end, header_start_index) + len(header_end)
+header = file_contents[header_start_index:header_end_index]
+activity_log = file_contents[header_end_index:]
+
+# Write the header to the output file
+output_file_path = "/path/to/output_file.txt"  # Replace with the desired output file path
+with open(output_file_path, 'w') as output_file:
+    output_file.write(header)
+
+# Process the activity log to get unique User IDs and counts
+lines = activity_log.strip().split('\n')
+user_ids = set()
+for line in lines:
+    if line.startswith("ld"):
+        user_id = line.split('@')[0]
+        user_ids.add(user_id)
+
+# Count the occurrences of each action type
+action_counts = {
+    "send event issued": 0,
+    "insert_job done": 0,
+    "update_job done": 0,
+    "delete_job done": 0
+}
+
+for line in lines:
+    if line.startswith("CAUAJM_I_50152 Sendevent issued."):
+        action_counts["send event issued"] += 1
+    elif line.startswith("job definition change"):
+        if "insert_job" in line:
+            action_counts["insert_job done"] += 1
+        elif "update_job" in line:
+            action_counts["update_job done"] += 1
+        elif "delete_job" in line:
+            action_counts["delete_job done"] += 1
+
+# Write the user ID counts to the output file
+with open(output_file_path, 'a') as output_file:
+    output_file.write("\n\n" + header + "\n\n")
+    for user_id in sorted(user_ids):
+        output_file.write(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} send event issued\n")
+        output_file.write(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} insert_job done\n")
+        output_file.write(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} update_job done\n")
+        output_file.write(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} delete_job done\n")
+
+# Optionally, you can also print the contents to the console
+print(header)
+print()
+for user_id in sorted(user_ids):
+    print(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} send event issued")
+    print(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} insert_job done")
+    print(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} update_job done")
+    print(f"{user_id}@akrsrv315.na.goodyear.com = {len(user_ids)} delete_job done")
